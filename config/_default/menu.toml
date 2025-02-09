@@ -1,24 +1,48 @@
 # Configure main menu and social menu
-#[[main]]
-#identifier = "home"
-#name = "Home"
-#url = "/"
-#[main.params]
-#icon = "home"
-#newtab = true
 
-[[social]]
+[[main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = -100
+[main.params]
+icon = "home"
+newtab = false
+
+
+[[main]]
+identifier = "about"
+name = "About"
+url = "/p/about-me/"
+weight = -70
+[main.params]
+icon = "link"
+newtab = false
+
+
+[[main]]
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/abdulsamad4"
+weight = -80
+[main.params]
+icon = "link"
+newtab = true
+
+[[main]]
+identifier = "tryhackme"
+name = "TryHackMe"
+url = "https://www.tryhackme.com/p/samad1"
+weight = -60
+[main.params]
+icon = "link"
+newtab = true
+
+[[main]]
 identifier = "github"
-name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
-
-[social.params]
+name = "Github"
+url = "https://www.github.com/abdulsamad2002"
+[main.params]
 icon = "brand-github"
+newtab = true
 
-[[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
-
-[social.params]
-icon = "brand-twitter"
