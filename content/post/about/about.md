@@ -2,7 +2,7 @@
 title: "About Me"
 date: 2024-11-25T01:45:48+05:30
 draft: false
-image: https://st3.depositphotos.com/1563253/34441/i/450/depositphotos_344416458-stock-photo-about-me-web-sticker-button.jpg
+image: https://nerdordie.com/wp-content/uploads/cache/thumbs_1920x0/1812696_cybernetik_panel_thumbnail.webp
 toc: false
 ---
 

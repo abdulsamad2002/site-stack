@@ -1,7 +1,7 @@
 ---
 title: "Mr Robot CTF"
 date: 2024-11-29T12:10:58+05:30
-image: https://tryhackme-images.s3.amazonaws.com/room-icons/7a8797ae59733f2a72f0e8a8748be128.jpeg
+image: https://w0.peakpx.com/wallpaper/248/580/HD-wallpaper-mr-robot-logo-2018-mr-robot-tv-shows-deviantart-logo.jpg
 draft: false
 toc: true
 ---
