@@ -4,6 +4,7 @@ date: 2024-11-29T12:10:58+05:30
 image: https://w0.peakpx.com/wallpaper/248/580/HD-wallpaper-mr-robot-logo-2018-mr-robot-tv-shows-deviantart-logo.jpg
 draft: false
 toc: true
+tags : [ctf]
 ---
 
 

@@ -1,7 +1,7 @@
 # Pages placed under these sections will be shown on homepage and archive page.
 mainSections = ["post"]
 # Output page's full content in RSS.
-rssFullContent = false
+rssFullContent = true
 favicon = "supimp.png"
 
 [footer]
@@ -46,11 +46,11 @@ limit = 5
 #[widgets.homepage.params]
 #limit = 10
 
-#[[widgets.homepage]]
-#type = "tag-cloud"
+[[widgets.homepage]]
+type = "tag-cloud"
 
-#[widgets.homepage.params]
-#limit = 10
+[widgets.homepage.params]
+limit = 10
 
 [[widgets.page]]
 type = "toc"
@@ -60,9 +60,9 @@ site = ""
 card = "summary_large_image"
 
 [defaultImage.opengraph]
-enabled = false
-local = false
-src = ""
+enabled = true
+local = true
+src = "img/avatar.png"
 
 [colorScheme]
 toggle = true

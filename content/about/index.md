@@ -1,11 +1,16 @@
 ---
-title: "About Me"
-date: 2024-11-25T01:45:48+05:30
-draft: false
-image: https://nerdordie.com/wp-content/uploads/cache/thumbs_1920x0/1812696_cybernetik_panel_thumbnail.webp
-toc: false
+menu: 
+    main:
+        name: About Me
+        weight: -80
+        params:
+            icon: shield
+            readingTime: false
 ---
 
+![AboutMe](https://nerdordie.com/wp-content/uploads/cache/thumbs_1920x0/1812696_cybernetik_panel_thumbnail.webp)
+
+# About Me
 
 I am a Computer Science & Engineering student. Skilled in Python and Bash scripting. Here I'll be posting my projects and write-ups.
 

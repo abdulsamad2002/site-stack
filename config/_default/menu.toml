@@ -9,40 +9,47 @@ weight = -100
 icon = "home"
 newtab = false
 
-
-[[main]]
-identifier = "about"
-name = "About"
-url = "/p/about-me/"
-weight = -70
-[main.params]
-icon = "link"
-newtab = false
-
-
-[[main]]
-identifier = "linkedin"
-name = "LinkedIn"
-url = "https://www.linkedin.com/in/abdulsamad4"
-weight = -80
-[main.params]
-icon = "link"
-newtab = true
-
 [[main]]
 identifier = "tryhackme"
 name = "TryHackMe"
 url = "https://www.tryhackme.com/p/samad1"
 weight = -60
 [main.params]
-icon = "link"
+icon = "terminal"
 newtab = true
 
-[[main]]
+#--------------------------------------------------------SOCIALS
+
+[[social]]
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://linkedin.com/in/abdulsamad4"
+
+[social.params]
+icon = "brand-linkedin"
+
+
+[[social]]
 identifier = "github"
-name = "Github"
-url = "https://www.github.com/abdulsamad2002"
-[main.params]
-icon = "brand-github"
-newtab = true
+name = "GitHub"
+url = "https://github.com/abdulsamad2002"
 
+[social.params]
+icon = "brand-github"
+
+[[social]]
+identifier = "email"
+name = "Email"
+url = "mailto://blackhawkalpha009@gmail.com"
+
+[social.params]
+icon = "mail"
+
+
+[[social]]
+identifier = "rss"
+name = "RSS"
+url = "/index.xml"
+
+[social.params]
+icon = "rss"

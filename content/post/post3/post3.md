@@ -8,6 +8,7 @@ license:
 hidden: false
 comments: false
 draft: false
+tags: [blueteam]
 ---
 The CIA triad is an information security model that is used in consideration throughout creating a security policy. This model has an extensive background, ranging from being used in 1998.
 
