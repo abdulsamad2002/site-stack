@@ -1,7 +1,7 @@
 ---
 menu: 
     main:
-        name: About Me
+        name: About
         weight: -80
         params:
             icon: shield
