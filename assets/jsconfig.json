@@ -3,7 +3,7 @@
   "baseUrl": ".",
   "paths": {
    "*": [
-    "..\\..\\..\\..\\Users\\sheik\\AppData\\Local\\hugo_cache\\modules\\filecache\\modules\\pkg\\mod\\github.com\\abdulsamad2002\\hugo-theme-stack\\v3@v3.30.6\\assets\\*"
+    "..\\..\\..\\..\\Users\\sheik\\AppData\\Local\\hugo_cache\\modules\\filecache\\modules\\pkg\\mod\\github.com\\abdulsamad2002\\hugo-theme-stack\\v3@v3.30.2\\assets\\*"
    ]
   }
  }

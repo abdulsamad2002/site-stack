@@ -2,7 +2,8 @@
 mainSections = ["post"]
 # Output page's full content in RSS.
 rssFullContent = true
-favicon = "supimp.png"
+favicon = "realfavicon.png"
+favicon_ico = "favicon.ico"
 
 [footer]
 since = 2024
@@ -62,7 +63,7 @@ card = "summary_large_image"
 [defaultImage.opengraph]
 enabled = true
 local = true
-src = "img/avatar.png"
+src = "img/open.png"
 
 [colorScheme]
 toggle = true
