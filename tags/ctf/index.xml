@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ctf on Abdul Samad</title><link>https://samad.uno/tags/ctf/</link><description>Recent content in Ctf on Abdul Samad</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 29 Nov 2024 12:10:58 +0530</lastBuildDate><atom:link href="https://samad.uno/tags/ctf/index.xml" rel="self" type="application/rss+xml"/><item><title>Mr Robot CTF</title><link>https://samad.uno/p/mr-robot-ctf/</link><pubDate>Fri, 29 Nov 2024 12:10:58 +0530</pubDate><guid>https://samad.uno/p/mr-robot-ctf/</guid><description>&lt;img src="https://w0.peakpx.com/wallpaper/248/580/HD-wallpaper-mr-robot-logo-2018-mr-robot-tv-shows-deviantart-logo.jpg" alt="Featured image of post Mr Robot CTF" />&lt;p>Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.&lt;/p>
+&lt;h3 id="enumeration">Enumeration
+&lt;/h3>&lt;h4 id="nmap-scan">Nmap Scan
+&lt;/h4>&lt;p>First of we start with scanning the target&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo nmap -sT -T4 -p- -sV 10.10.134.174
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Nmap results:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Nmap scan report for 10.10.134.174
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Host is up (0.17s latency).
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Not shown: 65532 filtered tcp ports (no-response)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">PORT STATE SERVICE VERSION
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">22/tcp closed ssh
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">80/tcp open http Apache httpd
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">443/tcp open ssl/http Apache httpd
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Service detection performed.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Please report any incorrect results at https://nmap.org/submit/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Nmap done: 1 IP address (1 host up) scanned in 352.56 seconds
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>We have a 2 open ports both of them have a webserver running one has SSL/HTTP at port 443 and the other is HTTP at port 80.&lt;/p>
+&lt;p>Opening the web app in the browser provides us with an interesting interface in which we aren&amp;rsquo;t interested.&lt;/p>
+&lt;p>Examining the webapp for common directories I stumbled across the &lt;code>/robots.txt&lt;/code> endpoint.&lt;/p>
+&lt;p>Content of which were as follows:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">User-agent: *
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">fsocity.dic
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">key-1-of-3.txt
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>For the first key we have the end point &lt;code>/key-1-of-3.txt&lt;/code>.&lt;/p>
+&lt;p>We also found the &lt;code>/fsocity.dic&lt;/code> endpoint which has a wordlist which might come in handy later.&lt;/p>
+&lt;h4 id="directory-busting">Directory Busting
+&lt;/h4>&lt;p>Now moving on, we need to do directory busting to find new endpoints, we employ DirBuster for this task:&lt;/p>
+&lt;p>&lt;img src="https://samad.uno/dirb.png"
+loading="lazy"
+alt="DirBuster"
+>&lt;/p>
+&lt;p>This yields us some really interesting results:
+&lt;code>/license&lt;/code>
+&lt;code>/login&lt;/code>&lt;/p>
+&lt;p>Visiting the &lt;code>/license&lt;/code> endpoint we get:&lt;/p>
+&lt;p>&lt;img src="https://samad.uno/license.png"
+loading="lazy"
+alt="/license"
+>&lt;/p>
+&lt;p>Scrolling further down we are greeted with a base64 string which screams &amp;ldquo;password&amp;rdquo;&lt;/p>
+&lt;p>&lt;img src="https://samad.uno/string.png"
+loading="lazy"
+alt="/license"
+>&lt;/p>
+&lt;p>After decoding the base64 string we found we get not only the password but also the username which quite matches the theme of this box:
+User: &lt;code>Elliot&lt;/code>
+Password: &lt;code>ER28-0652&lt;/code>&lt;/p>
+&lt;p>Now equipped with user and password we move on to the &lt;code>/login&lt;/code> endpoint.&lt;/p>
+&lt;p>&lt;img src="https://samad.uno/login.png"
+loading="lazy"
+alt="login"
+>&lt;/p>
+&lt;p>We login with the credentials we have and we get a wordpress dashboard.&lt;/p>
+&lt;p>&lt;img src="https://samad.uno/dash.png"
+loading="lazy"
+alt="dashboard"
+>&lt;/p>
+&lt;h3 id="exploitation">Exploitation
+&lt;/h3>&lt;p>Poking around I found the theme editorhiding in plainsight, this bad boy could be our way in.&lt;/p>
+&lt;p>&lt;img src="https://samad.uno/404.png"
+loading="lazy"
+alt="editor"
+>&lt;/p>
+&lt;p>Now we have access to some code that can be manipulated and used to gain a reverse shell on the target, what we need to do is replace the code for 404.php with a reverse shell.&lt;/p>
+&lt;p>Before we execute the reverse shell file on the target we need to setup a listener on our host.
+For that we have netcat.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">rlwrap nc -lvnp 1234
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Using rlwrap is not necessary but it&amp;rsquo;s the quality of life stuff. Now we have our listener up and running.&lt;/p>
+&lt;p>&lt;img src="https://samad.uno/nc.png"
+loading="lazy"
+alt="listener"
+>&lt;/p>
+&lt;p>Executing our reverse shell by visiting the URL: &lt;code>http://10.10.134.174/wp-includes/themes/TwentyFifteen/404.php&lt;/code>&lt;/p>
+&lt;p>We get a shell.&lt;/p>
+&lt;p>&lt;img src="https://samad.uno/shell.png"
+loading="lazy"
+alt="shell"
+>&lt;/p>
+&lt;p>We land as daemon which is not privileged enough to access the &amp;ldquo;key&amp;rdquo; file so we need to change to a system user which in this case is &amp;ldquo;robot&amp;rdquo; it&amp;rsquo;s password is given in a md5 hash.&lt;/p>
+&lt;p>We crack the hash using John the Ripper and the fsocity.dic wordlist we found earlier, now we have the password: &lt;code>abcdefghijklmnopqrstuvwxyz&lt;/code>&lt;/p>
+&lt;p>Now inorder to change the user we need to have an interactive shell which right now we don&amp;rsquo;t, so to make the current shell interactive we simply use:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">python -c &amp;#39;import pty;pty.spawn(&amp;#34;/bin/bash&amp;#34;)&amp;#39;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>And we have an interactive shell&lt;/p>
+&lt;p>&lt;img src="https://samad.uno/key2.png"
+loading="lazy"
+alt="shell"
+>&lt;/p>
+&lt;p>Now we can easily obtain the second key.&lt;/p></description></item></channel></rss>

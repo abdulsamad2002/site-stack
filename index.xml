@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Abdul Samad</title><link>https://samad.uno/</link><description>Recent content on Abdul Samad</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 14 Feb 2025 23:46:45 +0000</lastBuildDate><atom:link href="https://samad.uno/index.xml" rel="self" type="application/rss+xml"/><item><title>Zero Trust Security</title><link>https://samad.uno/p/zero-trust-security/</link><pubDate>Fri, 14 Feb 2025 23:46:45 +0000</pubDate><guid>https://samad.uno/p/zero-trust-security/</guid><description>&lt;img src="https://www.bleepstatic.com/content/posts/2021/02/26/ZeroTrustSecurity2.jpg" alt="Featured image of post Zero Trust Security" />&lt;h1 id="what-is-zero-trust-security-and-why-you-should-adopt-it">What is Zero Trust Security and Why You Should Adopt It
+&lt;/h1>&lt;h2 id="understanding-zero-trust-security">Understanding Zero Trust Security
+&lt;/h2>&lt;p>Zero Trust Security is a cybersecurity model that operates on the principle of &amp;ldquo;never trust, always verify.&amp;rdquo; Unlike traditional security models that assume entities inside a network are trustworthy, Zero Trust requires continuous authentication and authorization of every user, device, and system attempting to access resources. It minimizes risk by enforcing strict identity verification and limiting access to only what is necessary.&lt;/p>
+&lt;h2 id="key-principles-of-zero-trust">Key Principles of Zero Trust
+&lt;/h2>&lt;ol>
+&lt;li>&lt;strong>Verify Identity and Access&lt;/strong> – Every access request must be authenticated, authorized, and continuously validated before granting entry.&lt;/li>
+&lt;li>&lt;strong>Least Privilege Access&lt;/strong> – Users and devices should have only the minimal access necessary to perform their functions.&lt;/li>
+&lt;li>&lt;strong>Microsegmentation&lt;/strong> – Networks are divided into smaller zones to limit lateral movement and contain potential threats.&lt;/li>
+&lt;li>&lt;strong>Assume Breach Mentality&lt;/strong> – Organizations operate under the assumption that breaches have already occurred, continuously monitoring for unusual behavior.&lt;/li>
+&lt;li>&lt;strong>Continuous Monitoring and Logging&lt;/strong> – Real-time analysis of access patterns, user behavior, and system interactions ensures rapid threat detection and response.&lt;/li>
+&lt;/ol>
+&lt;h2 id="why-businesses-should-adopt-zero-trust-security">Why Businesses Should Adopt Zero Trust Security
+&lt;/h2>&lt;h3 id="1-enhanced-security-posture">1. &lt;strong>Enhanced Security Posture&lt;/strong>
+&lt;/h3>&lt;p>By removing implicit trust and enforcing strict authentication, Zero Trust significantly reduces the risk of cyberattacks, insider threats, and data breaches.&lt;/p>
+&lt;h3 id="2-protection-against-modern-cyber-threats">2. &lt;strong>Protection Against Modern Cyber Threats&lt;/strong>
+&lt;/h3>&lt;p>With cybercriminals employing increasingly sophisticated attack methods, Zero Trust ensures that even if an attacker gains access, they cannot move freely within the network.&lt;/p>
+&lt;h3 id="3-improved-regulatory-compliance">3. &lt;strong>Improved Regulatory Compliance&lt;/strong>
+&lt;/h3>&lt;p>Zero Trust aligns with industry standards and regulatory frameworks such as GDPR, HIPAA, and NIST, making compliance easier for businesses.&lt;/p>
+&lt;h3 id="4-reduced-attack-surface">4. &lt;strong>Reduced Attack Surface&lt;/strong>
+&lt;/h3>&lt;p>Microsegmentation and strict access controls prevent attackers from easily navigating an organization&amp;rsquo;s network.&lt;/p>
+&lt;h3 id="5-better-visibility-and-control">5. &lt;strong>Better Visibility and Control&lt;/strong>
+&lt;/h3>&lt;p>With continuous monitoring and real-time logging, security teams gain deeper insights into network activity, enabling proactive threat management.&lt;/p>
+&lt;h2 id="how-to-implement-zero-trust-security">How to Implement Zero Trust Security
+&lt;/h2>&lt;ol>
+&lt;li>&lt;strong>Identify and Classify Assets&lt;/strong> – Determine all critical assets, including applications, data, and devices.&lt;/li>
+&lt;li>&lt;strong>Enforce Strong Identity and Access Management (IAM)&lt;/strong> – Implement multi-factor authentication (MFA) and role-based access control (RBAC).&lt;/li>
+&lt;li>&lt;strong>Segment the Network&lt;/strong> – Use microsegmentation to create secure perimeters around sensitive data.&lt;/li>
+&lt;li>&lt;strong>Monitor and Analyze Activity&lt;/strong> – Deploy security analytics tools to detect anomalies and respond to threats promptly.&lt;/li>
+&lt;li>&lt;strong>Adopt a Continuous Improvement Approach&lt;/strong> – Regularly update security policies, test defenses, and adapt to emerging threats.&lt;/li>
+&lt;/ol>
+&lt;h2 id="conclusion">Conclusion
+&lt;/h2>&lt;p>Zero Trust Security is a proactive approach to cybersecurity that offers robust protection against evolving cyber threats. By enforcing strict access controls, continuous monitoring, and an assume-breach mentality, businesses can significantly enhance their security posture, minimize risks, and ensure compliance with regulatory standards. Adopting a Zero Trust model is no longer an option but a necessity in today’s rapidly evolving digital landscape.&lt;/p></description></item><item><title>Dealing with DDoS Attacks</title><link>https://samad.uno/p/dealing-with-ddos-attacks/</link><pubDate>Thu, 13 Feb 2025 03:04:27 +0530</pubDate><guid>https://samad.uno/p/dealing-with-ddos-attacks/</guid><description>&lt;img src="https://tresorit.com/blog/content/images/size/w2000/2022/02/blog_ddos_v2@2x.png" alt="Featured image of post Dealing with DDoS Attacks" />&lt;h1 id="dealing-with-ddos-attacks-blue-team-strategies">Dealing with DDoS Attacks: Blue Team Strategies
+&lt;/h1>&lt;h2 id="introduction">Introduction
+&lt;/h2>&lt;p>Distributed Denial-of-Service (DDoS) attacks are a persistent and growing threat to organizations worldwide. These attacks aim to overwhelm a target system, network, or service with excessive traffic, rendering it unavailable to legitimate users. As a blue team member, your role is to detect, mitigate, and prevent these attacks effectively. This blog will explore strategies to defend against DDoS attacks using proactive measures, real-time response tactics, and long-term security best practices.&lt;/p>
+&lt;h2 id="understanding-ddos-attacks">Understanding DDoS Attacks
+&lt;/h2>&lt;p>DDoS attacks typically leverage a botnet—a network of compromised devices—to flood a target with malicious traffic. The main types of DDoS attacks include:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Volumetric Attacks&lt;/strong>: These flood the target with a massive amount of data, consuming bandwidth (e.g., UDP flood, ICMP flood, DNS amplification).&lt;/li>
+&lt;li>&lt;strong>Protocol Attacks&lt;/strong>: These exploit weaknesses in network protocols to exhaust server resources (e.g., SYN flood, Ping of Death, Smurf attack).&lt;/li>
+&lt;li>&lt;strong>Application Layer Attacks&lt;/strong>: These target specific applications and services, exhausting processing power (e.g., HTTP flood, Slowloris attack).&lt;/li>
+&lt;/ul>
+&lt;h2 id="blue-team-strategies-for-ddos-defense">Blue Team Strategies for DDoS Defense
+&lt;/h2>&lt;h3 id="1-proactive-measures">1. &lt;strong>Proactive Measures&lt;/strong>
+&lt;/h3>&lt;p>A strong defense starts with preparation. Implementing these proactive strategies can help minimize the impact of a DDoS attack before it happens:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Traffic Monitoring &amp;amp; Baselining&lt;/strong>: Use network monitoring tools like Wireshark, NetFlow, or SIEM solutions to establish normal traffic baselines and detect anomalies.&lt;/li>
+&lt;li>&lt;strong>Rate Limiting &amp;amp; Throttling&lt;/strong>: Configure firewalls and web servers to limit the number of requests per second from a single IP.&lt;/li>
+&lt;li>&lt;strong>Content Delivery Networks (CDN)&lt;/strong>: Utilize CDNs like Cloudflare or Akamai to distribute traffic and absorb DDoS attacks.&lt;/li>
+&lt;li>&lt;strong>DDoS Protection Services&lt;/strong>: Consider cloud-based solutions such as AWS Shield, Cloudflare DDoS Protection, or Akamai Kona Site Defender.&lt;/li>
+&lt;li>&lt;strong>Access Control Lists (ACLs)&lt;/strong>: Implement ACLs to block traffic from known malicious IPs and geographies with high attack rates.&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-real-time-detection--response">2. &lt;strong>Real-Time Detection &amp;amp; Response&lt;/strong>
+&lt;/h3>&lt;p>When an attack occurs, rapid detection and response are crucial:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Traffic Analysis&lt;/strong>: Use Intrusion Detection Systems (IDS) and Security Information and Event Management (SIEM) tools to identify attack patterns.&lt;/li>
+&lt;li>&lt;strong>IP Blacklisting &amp;amp; Geofencing&lt;/strong>: Immediately block malicious IPs and suspicious geographical regions using firewall rules.&lt;/li>
+&lt;li>&lt;strong>Rate Limiting Adjustments&lt;/strong>: Dynamically adjust rate limits and traffic thresholds based on real-time attack severity.&lt;/li>
+&lt;li>&lt;strong>Sinkholing &amp;amp; Null Routing&lt;/strong>: Redirect malicious traffic to a null route or black hole server to prevent it from reaching critical infrastructure.&lt;/li>
+&lt;li>&lt;strong>Scaling Infrastructure&lt;/strong>: Deploy auto-scaling solutions in cloud environments to absorb and mitigate high traffic loads.&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-post-attack-recovery--long-term-strategies">3. &lt;strong>Post-Attack Recovery &amp;amp; Long-Term Strategies&lt;/strong>
+&lt;/h3>&lt;p>After an attack, it is essential to analyze the incident and strengthen defenses to prevent future occurrences:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Forensic Analysis&lt;/strong>: Investigate logs, identify attack sources, and gather intelligence on attacker behavior.&lt;/li>
+&lt;li>&lt;strong>Patching &amp;amp; Hardening&lt;/strong>: Update and configure systems to fix vulnerabilities exploited during the attack.&lt;/li>
+&lt;li>&lt;strong>Employee Training &amp;amp; Drills&lt;/strong>: Conduct security awareness programs and DDoS response drills to prepare the team.&lt;/li>
+&lt;li>&lt;strong>Threat Intelligence Integration&lt;/strong>: Subscribe to threat intelligence feeds to stay updated on emerging DDoS tactics and indicators of compromise (IoCs).&lt;/li>
+&lt;li>&lt;strong>Engage with ISPs &amp;amp; Security Vendors&lt;/strong>: Collaborate with internet service providers (ISPs) and security vendors for additional mitigation support.&lt;/li>
+&lt;/ul>
+&lt;h2 id="conclusion">Conclusion
+&lt;/h2>&lt;p>DDoS attacks continue to evolve in sophistication, making it essential for blue teams to implement a multi-layered defense strategy. By proactively monitoring traffic, responding to incidents in real-time, and strengthening long-term defenses, organizations can minimize the risk and impact of these disruptive attacks. In the ever-changing landscape of cybersecurity, staying prepared and adaptive is the key to effective DDoS mitigation.&lt;/p></description></item><item><title>Significance of Bash Scripting</title><link>https://samad.uno/p/significance-of-bash-scripting/</link><pubDate>Tue, 11 Feb 2025 11:56:46 +0530</pubDate><guid>https://samad.uno/p/significance-of-bash-scripting/</guid><description>&lt;img src="https://images4.alphacoders.com/136/thumb-1920-1369036.png" alt="Featured image of post Significance of Bash Scripting" />&lt;h1 id="the-importance-of-bash-automation-in-a-soc">The Importance of Bash Automation in a SOC
+&lt;/h1>&lt;h2 id="introduction">Introduction
+&lt;/h2>&lt;p>In the ever-evolving landscape of cybersecurity, Security Operations Centers (SOCs) play a crucial role in detecting, analyzing, and responding to threats. Given the vast amount of logs, alerts, and data that SOC analysts handle daily, automation becomes a necessity. One of the most efficient and widely used automation tools in a SOC is Bash scripting.&lt;/p>
+&lt;h2 id="why-bash">Why Bash?
+&lt;/h2>&lt;p>Bash (Bourne Again Shell) is a powerful scripting language primarily used in Linux environments. Since most security tools, log management systems, and SIEM (Security Information and Event Management) solutions are deployed on Linux-based infrastructures, Bash provides a seamless way to automate security tasks. Here are a few reasons why Bash is indispensable in a SOC:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Native to Linux&lt;/strong>: Most SOC environments operate on Linux, making Bash an easily accessible tool.&lt;/li>
+&lt;li>&lt;strong>Lightweight and Fast&lt;/strong>: Unlike complex programming languages, Bash scripts run quickly and efficiently with minimal resource consumption.&lt;/li>
+&lt;li>&lt;strong>Integration with Security Tools&lt;/strong>: Bash can be used to automate tasks involving tools like tcpdump, Wireshark, OSSEC, Suricata, and SIEM solutions like Splunk and ELK Stack.&lt;/li>
+&lt;li>&lt;strong>Task Automation&lt;/strong>: From log analysis to incident response, Bash scripts can handle repetitive tasks, improving efficiency.&lt;/li>
+&lt;/ul>
+&lt;h2 id="applications-of-bash-automation-in-a-soc">Applications of Bash Automation in a SOC
+&lt;/h2>&lt;h3 id="1-log-parsing-and-analysis">1. Log Parsing and Analysis
+&lt;/h3>&lt;p>SOC analysts deal with vast amounts of logs from firewalls, intrusion detection systems (IDS), and endpoint security tools. Manually analyzing logs is time-consuming and error-prone. Bash scripts can:&lt;/p>
+&lt;ul>
+&lt;li>Extract relevant information (e.g., filtering logs for specific IPs, error codes, or patterns).&lt;/li>
+&lt;li>Automate correlation of logs from multiple sources.&lt;/li>
+&lt;li>Convert logs into structured formats (e.g., CSV or JSON) for further analysis.&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-incident-response-automation">2. Incident Response Automation
+&lt;/h3>&lt;p>When an alert is triggered, quick action is required. Bash automation can:&lt;/p>
+&lt;ul>
+&lt;li>Check logs for indicators of compromise (IOCs).&lt;/li>
+&lt;li>Retrieve real-time process or network activity using &lt;code>ps&lt;/code>, &lt;code>netstat&lt;/code>, and &lt;code>lsof&lt;/code>.&lt;/li>
+&lt;li>Terminate malicious processes automatically.&lt;/li>
+&lt;li>Send alerts and generate incident reports.&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-threat-intelligence-integration">3. Threat Intelligence Integration
+&lt;/h3>&lt;p>SOC teams frequently rely on threat intelligence feeds to identify emerging threats. Bash scripts can:&lt;/p>
+&lt;ul>
+&lt;li>Fetch threat intelligence data from open-source threat intelligence platforms (OTX, MISP, etc.).&lt;/li>
+&lt;li>Cross-check logs against known malicious IPs, hashes, and domains.&lt;/li>
+&lt;li>Automate the blocking of malicious IPs in firewalls or intrusion prevention systems (IPS).&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-automating-forensic-investigations">4. Automating Forensic Investigations
+&lt;/h3>&lt;p>Forensic analysis is a key component of incident response. Bash scripts can assist by:&lt;/p>
+&lt;ul>
+&lt;li>Collecting system snapshots (e.g., running processes, active network connections).&lt;/li>
+&lt;li>Extracting artifacts such as SSH history, modified files, and login attempts.&lt;/li>
+&lt;li>Hashing files for integrity checks and evidence collection.&lt;/li>
+&lt;/ul>
+&lt;h3 id="5-user-and-network-monitoring">5. User and Network Monitoring
+&lt;/h3>&lt;ul>
+&lt;li>Monitoring user login activity and detecting unauthorized access attempts.&lt;/li>
+&lt;li>Automating the detection of suspicious commands executed by users.&lt;/li>
+&lt;li>Checking for anomalies in network traffic patterns.&lt;/li>
+&lt;/ul>
+&lt;h3 id="6-automated-report-generation">6. Automated Report Generation
+&lt;/h3>&lt;p>SOC analysts often need to generate daily or weekly reports on security incidents and system health. Bash scripts can:&lt;/p>
+&lt;ul>
+&lt;li>Aggregate log data and extract key insights.&lt;/li>
+&lt;li>Format data into readable reports (HTML, CSV, or JSON).&lt;/li>
+&lt;li>Send reports via email or upload them to dashboards.&lt;/li>
+&lt;/ul>
+&lt;h2 id="real-world-example-bash-script-for-log-analysis">Real-World Example: Bash Script for Log Analysis
+&lt;/h2>&lt;p>Here’s a simple Bash script that extracts failed SSH login attempts from logs:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#!/bin/bash
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>&lt;span class="nv">LOGFILE&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;/var/log/auth.log&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">echo&lt;/span> &lt;span class="s2">&amp;#34;Failed SSH login attempts:&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">grep &lt;span class="s2">&amp;#34;Failed password&amp;#34;&lt;/span> &lt;span class="nv">$LOGFILE&lt;/span> &lt;span class="p">|&lt;/span> awk &lt;span class="s1">&amp;#39;{print $1, $2, $3, $9, $11}&amp;#39;&lt;/span> &lt;span class="p">|&lt;/span> sort &lt;span class="p">|&lt;/span> uniq -c &lt;span class="p">|&lt;/span> sort -nr
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>This script extracts failed SSH login attempts, providing insights into potential brute-force attacks.&lt;/p>
+&lt;h2 id="conclusion">Conclusion
+&lt;/h2>&lt;p>Bash automation is a game-changer in SOC operations, allowing analysts to handle large volumes of data efficiently while reducing manual effort. By leveraging Bash scripting, SOC teams can enhance log analysis, automate incident response, streamline forensic investigations, and integrate threat intelligence. Mastering Bash is an essential skill for any SOC analyst looking to improve productivity and threat detection capabilities.&lt;/p></description></item><item><title>Streamlining Incident Response and Threat Detection</title><link>https://samad.uno/p/streamlining-incident-response-and-threat-detection/</link><pubDate>Tue, 11 Feb 2025 07:22:52 +0530</pubDate><guid>https://samad.uno/p/streamlining-incident-response-and-threat-detection/</guid><description>&lt;img src="https://www.scrut.io/wp-content/uploads/2023/02/How-to-automate-Your-InfoSec-Program-with-Scrut-1.png" alt="Featured image of post Streamlining Incident Response and Threat Detection" />&lt;h1 id="soc-automation-streamlining-incident-response-and-threat-detection">SOC Automation: Streamlining Incident Response and Threat Detection
+&lt;/h1>&lt;h2 id="introduction">Introduction
+&lt;/h2>&lt;p>With the ever-evolving cyber threat landscape, Security Operations Centers (SOCs) face increasing pressure to detect and respond to incidents swiftly. Manual processes, though effective, are often time-consuming and resource-intensive. SOC automation is transforming the way security teams handle threats by enhancing efficiency, reducing response times, and minimizing human error. In this blog, we will explore how SOC automation is streamlining incident response and threat detection, its benefits, and the key technologies driving this transformation.&lt;/p>
+&lt;h2 id="the-need-for-soc-automation">The Need for SOC Automation
+&lt;/h2>&lt;p>Security teams are overwhelmed with vast amounts of alerts, many of which turn out to be false positives. According to industry reports, SOC analysts spend significant time triaging and investigating alerts rather than focusing on actual threats. This inefficiency can lead to delayed responses and an increased risk of security breaches. SOC automation addresses these challenges by integrating advanced technologies to accelerate detection, analysis, and mitigation.&lt;/p>
+&lt;h2 id="key-benefits-of-soc-automation">Key Benefits of SOC Automation
+&lt;/h2>&lt;h3 id="1-faster-incident-response">1. Faster Incident Response
+&lt;/h3>&lt;p>Automation enables security teams to rapidly analyze threats and respond in real time. By leveraging predefined playbooks and orchestration tools, SOCs can contain and remediate incidents without manual intervention.&lt;/p>
+&lt;h3 id="2-reduced-analyst-fatigue">2. Reduced Analyst Fatigue
+&lt;/h3>&lt;p>With automation handling repetitive tasks like log correlation, alert triaging, and enrichment, analysts can focus on more complex investigations, reducing burnout and improving productivity.&lt;/p>
+&lt;h3 id="3-improved-accuracy">3. Improved Accuracy
+&lt;/h3>&lt;p>Automated systems eliminate human errors that can arise from fatigue or oversight. By ensuring consistent and standardized responses, SOCs can enhance the accuracy of threat detection and incident handling.&lt;/p>
+&lt;h3 id="4-enhanced-threat-intelligence-integration">4. Enhanced Threat Intelligence Integration
+&lt;/h3>&lt;p>SOC automation seamlessly integrates with threat intelligence platforms to enrich alerts with contextual information. This enables analysts to make informed decisions and prioritize critical threats effectively.&lt;/p>
+&lt;h3 id="5-scalability-and-efficiency">5. Scalability and Efficiency
+&lt;/h3>&lt;p>Automation allows SOCs to handle a larger volume of security events efficiently. As organizations grow, automated workflows ensure that security operations remain effective without the need for additional human resources.&lt;/p>
+&lt;h2 id="technologies-powering-soc-automation">Technologies Powering SOC Automation
+&lt;/h2>&lt;h3 id="1-security-orchestration-automation-and-response-soar">1. &lt;strong>Security Orchestration, Automation, and Response (SOAR)&lt;/strong>
+&lt;/h3>&lt;p>SOAR platforms help SOCs automate and orchestrate workflows by integrating multiple security tools. These platforms execute predefined playbooks to standardize and speed up incident response.&lt;/p>
+&lt;h3 id="2-artificial-intelligence-and-machine-learning-aiml">2. &lt;strong>Artificial Intelligence and Machine Learning (AI/ML)&lt;/strong>
+&lt;/h3>&lt;p>AI-driven threat detection tools analyze patterns and anomalies in real time, reducing false positives and detecting sophisticated threats more effectively.&lt;/p>
+&lt;h3 id="3-user-and-entity-behavior-analytics-ueba">3. &lt;strong>User and Entity Behavior Analytics (UEBA)&lt;/strong>
+&lt;/h3>&lt;p>UEBA solutions leverage behavioral analytics to detect deviations from normal user activities, identifying potential insider threats and compromised accounts.&lt;/p>
+&lt;h3 id="4-threat-intelligence-platforms-tips">4. &lt;strong>Threat Intelligence Platforms (TIPs)&lt;/strong>
+&lt;/h3>&lt;p>TIPs aggregate and correlate threat intelligence from various sources to provide actionable insights that enhance SOC decision-making and automation processes.&lt;/p>
+&lt;h3 id="5-automated-incident-response-playbooks">5. &lt;strong>Automated Incident Response Playbooks&lt;/strong>
+&lt;/h3>&lt;p>Playbooks define step-by-step procedures for responding to different types of security incidents. Automation tools execute these playbooks, ensuring rapid and consistent mitigation efforts.&lt;/p>
+&lt;h2 id="implementing-soc-automation-best-practices">Implementing SOC Automation: Best Practices
+&lt;/h2>&lt;h3 id="1-define-clear-objectives">1. &lt;strong>Define Clear Objectives&lt;/strong>
+&lt;/h3>&lt;p>Identify areas where automation can provide the most value, such as alert triaging, malware analysis, or phishing response.&lt;/p>
+&lt;h3 id="2-integrate-with-existing-security-tools">2. &lt;strong>Integrate with Existing Security Tools&lt;/strong>
+&lt;/h3>&lt;p>SOC automation should seamlessly connect with SIEM, EDR, firewall, and other security solutions to maximize effectiveness.&lt;/p>
+&lt;h3 id="3-develop-and-test-automated-playbooks">3. &lt;strong>Develop and Test Automated Playbooks&lt;/strong>
+&lt;/h3>&lt;p>Regularly update and test playbooks to ensure they align with evolving threats and organizational security policies.&lt;/p>
+&lt;h3 id="4-ensure-human-oversight">4. &lt;strong>Ensure Human Oversight&lt;/strong>
+&lt;/h3>&lt;p>While automation enhances efficiency, human analysts should oversee critical decision-making to handle complex threats that require contextual judgment.&lt;/p>
+&lt;h3 id="5-continuously-monitor-and-improve">5. &lt;strong>Continuously Monitor and Improve&lt;/strong>
+&lt;/h3>&lt;p>SOC automation is not a one-time implementation. Regularly refine workflows and leverage feedback to improve accuracy and efficiency.&lt;/p>
+&lt;h2 id="conclusion">Conclusion
+&lt;/h2>&lt;p>SOC automation is revolutionizing threat detection and incident response, enabling security teams to operate more efficiently and effectively. By leveraging technologies like SOAR, AI, and UEBA, organizations can enhance their cybersecurity posture while reducing operational burdens on analysts. As cyber threats continue to evolve, embracing automation will be key to building a resilient and proactive SOC. Organizations that implement automation strategically will gain a competitive edge in mitigating security risks and safeguarding their digital assets.&lt;/p></description></item><item><title>Metasploit for SOC Analysts</title><link>https://samad.uno/p/metasploit-for-soc-analysts/</link><pubDate>Tue, 11 Feb 2025 02:33:27 +0530</pubDate><guid>https://samad.uno/p/metasploit-for-soc-analysts/</guid><description>&lt;img src="https://diesec.com/wp-content/uploads/2022/07/metasploit-diesec.jpg" alt="Featured image of post Metasploit for SOC Analysts" />&lt;h1 id="metasploit-for-soc-analysts-leveraging-offensive-tools-for-defensive-security">Metasploit for SOC Analysts: Leveraging Offensive Tools for Defensive Security
+&lt;/h1>&lt;h2 id="introduction">Introduction
+&lt;/h2>&lt;p>Metasploit is often regarded as a penetration testing framework, primarily used by red teamers and ethical hackers to exploit vulnerabilities in networks and systems. However, for Security Operations Center (SOC) analysts, understanding Metasploit is equally valuable. By leveraging Metasploit, SOC analysts can simulate attacks, analyze attacker behavior, and improve incident detection and response strategies.&lt;/p>
+&lt;p>This blog will explore how SOC analysts can use Metasploit effectively to enhance their defensive capabilities.&lt;/p>
+&lt;hr>
+&lt;h2 id="understanding-metasploit-a-brief-overview">Understanding Metasploit: A Brief Overview
+&lt;/h2>&lt;p>Metasploit is an open-source penetration testing framework developed by Rapid7. It provides a vast library of exploits, payloads, and auxiliary modules that help security professionals test network defenses. SOC analysts can utilize Metasploit to:&lt;/p>
+&lt;ul>
+&lt;li>Simulate real-world cyberattacks&lt;/li>
+&lt;li>Analyze and understand exploit techniques&lt;/li>
+&lt;li>Improve detection and logging mechanisms&lt;/li>
+&lt;li>Validate security controls and response procedures&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="why-should-soc-analysts-learn-metasploit">Why Should SOC Analysts Learn Metasploit?
+&lt;/h2>&lt;h3 id="1-threat-simulation-and-attack-emulation">1. &lt;strong>Threat Simulation and Attack Emulation&lt;/strong>
+&lt;/h3>&lt;p>By using Metasploit, SOC analysts can replicate tactics, techniques, and procedures (TTPs) used by adversaries. This helps in:&lt;/p>
+&lt;ul>
+&lt;li>Testing and validating detection rules in SIEM systems&lt;/li>
+&lt;li>Understanding how attackers move within a network&lt;/li>
+&lt;li>Training SOC teams in responding to real threats&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-log-and-siem-rule-testing">2. &lt;strong>Log and SIEM Rule Testing&lt;/strong>
+&lt;/h3>&lt;p>Metasploit can be used to trigger specific attack signatures, allowing SOC analysts to:&lt;/p>
+&lt;ul>
+&lt;li>Test the effectiveness of SIEM rules&lt;/li>
+&lt;li>Identify gaps in logging mechanisms&lt;/li>
+&lt;li>Fine-tune alerting thresholds to minimize false positives&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-endpoint-and-network-defense-validation">3. &lt;strong>Endpoint and Network Defense Validation&lt;/strong>
+&lt;/h3>&lt;p>SOC analysts can use Metasploit to test endpoint security controls such as EDR (Endpoint Detection and Response) solutions by:&lt;/p>
+&lt;ul>
+&lt;li>Running simulated attacks to check if alerts are triggered&lt;/li>
+&lt;li>Bypassing defenses to test security hardening measures&lt;/li>
+&lt;li>Analyzing logs to refine monitoring strategies&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="practical-use-cases-of-metasploit-for-soc-analysts">Practical Use Cases of Metasploit for SOC Analysts
+&lt;/h2>&lt;h3 id="1-exploiting-a-test-environment-for-detection-engineering">1. &lt;strong>Exploiting a Test Environment for Detection Engineering&lt;/strong>
+&lt;/h3>&lt;p>SOC teams can set up a controlled lab environment to execute exploits and observe system behavior. Example:&lt;/p>
+&lt;ul>
+&lt;li>Use Metasploit to exploit a vulnerable Windows machine.&lt;/li>
+&lt;li>Monitor SIEM logs to see how the attack is recorded.&lt;/li>
+&lt;li>Create custom detection rules based on attack patterns.&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-phishing-and-credential-harvesting-simulation">2. &lt;strong>Phishing and Credential Harvesting Simulation&lt;/strong>
+&lt;/h3>&lt;p>Metasploit provides modules like &lt;code>auxiliary/server/capture/http_login&lt;/code> to simulate phishing attacks. SOC analysts can:&lt;/p>
+&lt;ul>
+&lt;li>Understand common phishing techniques.&lt;/li>
+&lt;li>Test email security filters.&lt;/li>
+&lt;li>Improve awareness and detection mechanisms.&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-simulating-lateral-movement">3. &lt;strong>Simulating Lateral Movement&lt;/strong>
+&lt;/h3>&lt;p>Adversaries often use tools like PsExec, Mimikatz, and Pass-the-Hash for lateral movement. SOC analysts can:&lt;/p>
+&lt;ul>
+&lt;li>Use Metasploit modules to perform these actions.&lt;/li>
+&lt;li>Monitor and analyze Windows Event Logs and Sysmon data.&lt;/li>
+&lt;li>Create behavioral analytics for anomaly detection.&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-testing-firewall-and-idsips-evasion">4. &lt;strong>Testing Firewall and IDS/IPS Evasion&lt;/strong>
+&lt;/h3>&lt;p>Metasploit can generate various types of network traffic that SOC teams can use to:&lt;/p>
+&lt;ul>
+&lt;li>Validate firewall rule sets.&lt;/li>
+&lt;li>Test IDS/IPS detection capabilities.&lt;/li>
+&lt;li>Improve network segmentation and monitoring.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="steps-to-use-metasploit-for-soc-testing">Steps to Use Metasploit for SOC Testing
+&lt;/h2>&lt;ol>
+&lt;li>&lt;strong>Set up a lab environment&lt;/strong> using virtual machines and intentionally vulnerable applications (e.g., Metasploitable, DVWA, Windows VMs).&lt;/li>
+&lt;li>&lt;strong>Use Metasploit to launch attacks&lt;/strong> such as exploitation, phishing, or credential theft.&lt;/li>
+&lt;li>&lt;strong>Monitor logs in SIEM tools&lt;/strong> (e.g., Splunk, ELK, Graylog) to analyze attack traces.&lt;/li>
+&lt;li>&lt;strong>Refine detection rules&lt;/strong> based on observed patterns.&lt;/li>
+&lt;li>&lt;strong>Document findings&lt;/strong> and create threat detection playbooks.&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2 id="challenges-and-considerations">Challenges and Considerations
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Ethical and Legal Boundaries:&lt;/strong> Metasploit should only be used in authorized environments.&lt;/li>
+&lt;li>&lt;strong>False Positives:&lt;/strong> Ensure attack simulations don’t cause unnecessary alerts.&lt;/li>
+&lt;li>&lt;strong>Avoid Production Systems:&lt;/strong> Always test in a controlled lab to prevent unintended disruptions.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="conclusion">Conclusion
+&lt;/h2>&lt;p>For SOC analysts, Metasploit is more than just an offensive security tool. It is a powerful resource for improving defensive security strategies. By understanding how attacks work, SOC teams can build stronger detection mechanisms, enhance their incident response capabilities, and proactively defend against cyber threats.&lt;/p>
+&lt;p>By integrating Metasploit into SOC workflows, analysts can bridge the gap between offensive and defensive security, making organizations more resilient against cyber threats.&lt;/p></description></item><item><title>The CIA Triad</title><link>https://samad.uno/p/the-cia-triad/</link><pubDate>Sun, 09 Feb 2025 00:55:47 +0530</pubDate><guid>https://samad.uno/p/the-cia-triad/</guid><description>&lt;img src="https://19678933.fs1.hubspotusercontent-na1.net/hubfs/19678933/CIA-Triad-Alt.png" alt="Featured image of post The CIA Triad" />&lt;p>The CIA triad is an information security model that is used in consideration throughout creating a security policy. This model has an extensive background, ranging from being used in 1998.&lt;/p>
+&lt;p>This history is because the security of information (information security) does not start and/or end with cybersecurity, but instead, applies to scenarios like filing, record storage, etc.&lt;/p>
+&lt;p>Consisting of three sections: Confidentiality, Integrity and Availability (CIA), this model has quickly become an industry standard today. This model should help determine the value of data that it applies to, and in turn, the attention it needs from the business.&lt;/p>
+&lt;p>&lt;img src="https://www.cybermaxx.com/wp-content/uploads/2023/01/cybermaxx-what-is-the-cia-triad-e1673547855403.jpg"
+loading="lazy"
+alt="CIATriad"
+>&lt;/p>
+&lt;p>The CIA triad is unlike a traditional model where you have individual sections; instead, it is a continuous cycle. Whilst the three elements to the CIA triad can arguably overlap, if even just one element is not met, then the other two are rendered useless (similar to the fire triangle). If a security policy does not answer these three sections, it is seldom an effective security policy.&lt;/p>
+&lt;p>Whilst the three elements to the CIA triad are arguably self-explanatory, let&amp;rsquo;s explore these and contextualise them into cybersecurity.&lt;/p>
+&lt;p>&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAABsCAYAAABEmOQaAAAQiUlEQVR4Ae2ava4tORGFzzOQEs4LwANMQEaIJkUimggRjogIkCacCCQkIm6KRESERDohEjk5MTHZRuui6qlbZ1Vv271n/35H2rK72y7bn8u17O7zduIPAhCAAAQgsEDgbaEOVSAAAQhAAAInBAQngAAEIACBJQIIyBI2KkEAAhCAAAKCD0AAAhCAwBIBBGQJG5UgAAEIQAABwQcgAAEIQGCJAAKyhI1KEIAABCCAgOADEIAABCCwRAABWcJGJQhAAAIQQEDwAQhAAAIQWCKAgCxhoxIEIAABCCAg&amp;#43;AAEIAABCCwRQECWsFEJAhCAAAQQEHwAAhCAAASWCCAgS9ioBAEIQAACCAg&amp;#43;AAEIQAACSwQQkCVsVIIABCAAAQQEH4AABCAAgSUCCMgSNipBAAIQgAACgg9AAAIQgMASAQRkCRuVIAABCEAAAcEHIAABCEBgiQACsoSNShCAAAQggIDgAxCAAAQgsEQAAVnCRiUIQAACEHj77z8&amp;#43;QAECEIAABCAwTeCjgEhE&amp;#43;MEAH8AH8AF8YMYHEBDEk80DPoAP4ANLPoCA4DhLjjOzS6Esu1p84Dl9AAFBQBAQfAAfwAeWfAABwXGWHIcd5XPuKJlX5nXGBxAQBAQBwQfwAXxgyQcQEBxnyXFmdimUZVeLDzynDyAgCAgCgg/gA/jAkg8gIDjOkuOwo3zOHSXzyrzO&amp;#43;AACgoAgIPgAPoAPLPkAAoLjLDnOzC6Fsuxq8YHn9AEEBAFBQPABfAAfWPIBBATHWXIcdpTPuaNkXpnXGR9AQBCQwwLy7YffnL7&amp;#43;5Renz3/02ent7W37ffGTH3&amp;#43;8/88/f/1JG//66zenP/32y9NfvvnV6d9///0nz2acN5eVTfVDdr/6xU9Palv5XObV8v/59o&amp;#43;nv/3hq48cxOZa49d8R7tf/uzzj35RfSD3RT4gX9B8aR7zM/L3LWgICAKyvGC18BUgsmi4fA7kyucyn/3wBxcJGq4fud1XC0SamyroEvlrcMjzG/lOQCRs8oEop1Tic41&amp;#43;0sZxcUJALiwgefelAKafdle6rx3hszitxlIDVA4COR/BQ0Et34&amp;#43;8TgtHuSAgnwYDiUXwzek1TiK5vciHD9R57nzomdZKHfMzXSMgFxAQLQ4t2LqTisWTUwVLCcqjLxC9Jsrj2svHghGnrlyUWU2fWUAkvGI3szN3PMT&amp;#43;GqcyN8edgLiyuteVl3&amp;#43;s8Fj1K&amp;#43;p9ujGpPBCQAwIiR&amp;#43;4Warcw4r7ERvXrhDzCtfod46iphCVOXhJVXceY9H67lte1dqFRZjV183CNYLna33P1JBZ1TLo&amp;#43;Vy&amp;#43;edwI/I0JhazZ1c9wJQrfpqmvjKI/ZMVB&amp;#43;XziCDwKyKCAKhp3zuwVU710iaMYkXjvVCaqOR9cjr0dqUFS9SwQ1Z/eRBUR9r4xnBEQBu9bX6fcaJ9/arq47AXHjdN9qXLkZHtdeI6/SHgKyICBHxUML6ne//vnwbvLenNHtbvNJ41x/JUBa/KozIjrn7Ok5AvJ&amp;#43;xyg/VTAWG/nbNcRDczEjICovH5AvqJ/yDTffCMj7&amp;#43;XWcrn0PAZkUEC3C7sNfLBwtBDl8/LSItfuL50rrEf3aE3&amp;#43;kvXsM1vfYpyOMHzlgZj&amp;#43;PfHcCGWX0yDxGx/iI5RCQSQHRTi4WRU3P7fIkGtphzezWtfBCiJRqt3ZUfLQzld38m9md3jJYq5&amp;#43;537HojvZJNjU3wVqv1Y5wrv2UfXGP/p5LbxUwg21wiHTG7&amp;#43;q60LXsnhvz3vNb8djrE88&amp;#43;nBCQCQFRUHCLQ/e6o/eKkylw6dSy941FAXNkUWrha/Gp/J49jUEnK5U9JyYuWHdcdD/309VVm3uc1B&amp;#43;V6U5&amp;#43;EmT3bNTuHhedHMVwr3&amp;#43;xMXAnTcdF/c1MnG313dXt7lV7unZlXVsStnpCdnV1T5zP8XB1a/&amp;#43;iH26c8pF4Hqkr59qJe7k95xsab9h2qeYobEUqO67sK99DQCYERCIRzpTTmRPFOWfT4twLaLld5c99S6nlR67V/t5u2YnAnt28mF3dvUCvfrgAsNdePLukXYlDN3ezwS36d0mbmbH6qetoJ6duDHsbo1w35/f6nstFvvYv&amp;#43;uHYXVpAurcGexsltwbPrbUY0yulCMiEgLjgpwWyF2xnnEmvTWLBzaSzi3nEthZQt8A6Dp3dHDxc3S7Qa2fvFnLXTr3f2dV8rdjtAogLgrUv3XXXx1mbmbF8bkZAVH6FR3fqdmOt/Yt14cZ5aQHRpsz1qfvvP/mHK3&amp;#43;pdR5jf4YUAZkQEOdUlzrWHg2W3WsF1&amp;#43;fRe50wORHYs5mDh6vbBVFXdq&amp;#43;d&amp;#43;qyzO/q6ptrTdR5LBAAXBF3d7p7mPmxFOmuz9kvXrr2wX9MV1p3vu3Zr/6J9N071JZ5H6sq5duJebS/u57Tzb9eWBDb6Qvrdf4QhIIMCokWenS/ynRPOOpnshM2c6vVY7HziW0B&amp;#43;HvmZxaydtBZY/LojfrdoXLDRPS0898sB0tVVncpLfYux1TT3X7vIjp2z253yKmftrt2u3L2uVDu1j5oPiXowVrudcLmdfGdT990vMxbLjl/lHNfqg36qV0&amp;#43;eGkfX9/DNsKO0stC17OYykXfjHBUQMXYsdK/y0LzVfnX&amp;#43;7cZ6qXUe436WFAEZFJBuQcpZjzpDJ05uIaktt&amp;#43;i0ONyRvC6abjEreIyWHRUBx2W0bicKboxqZ9SuCw5OFGSze/VRA6ybDzd3qqegVzm7sqM2HWPd6/y1K3/ufuejbj7q&amp;#43;DqfU5uj4xwt141D/XT9qgKoOXLluhN&amp;#43;196r3EdA7kBAOufudm1yztHdsVsMnV1X1u2OR4O1W0Sjdd34XKCNNkbsdkFwLzi4gF/5zQQ3V9bthF25vfEHh0gvLSCyO8JY5ZwfVWbRz9FxjpYLuzXthKF&amp;#43;13Jr0c1Ptf&amp;#43;q1wjIHQiIe4V0zmndkVy76&amp;#43;rIM4t5NECMlqt90fVI3W6xOzGLNkbsdicKBafu5wSk9mMmuI0G9hmbwSCno&amp;#43;3kOsqLkdoWz/yTjzoWKlttzPjc6DhHy9W&amp;#43;5Gu3ZjSmc2V4ffXdN4/MSnkE5KCAdK8/Kui9axf8dG&amp;#43;vjltQWri1zsxidv1wAWK0XO2LrkfqdsGv28WO2u2YOUZ79yoTZ7ebv25sldWMzVpX16PtRF215059exz0rLKQPVenm7vRcY6Wi/G41J0u1Nf8Gssx6Pru2ni1ewjIoIDIMdzCqDuYFQdyQbULQGHfLSj1L55H6vrcLQjXDxcgRstFH3I6UrcLfl2/ZX/EbsfMMdq7V5k4u&amp;#43;pPHnfku7HF80hnbEadnI62ozrd96Y9BvGsspC9eJbTbu5GxzlaLjNweScQ8RrLnVAvsb5dP57lHgIyISDuCK9FUv/jY9Y5XPDrAlDYdgtKfYnnkeZFHPluMbt&amp;#43;uAAxWi76kNORul3w6/ot&amp;#43;yN2O2bBZTStTJxd9SePO/Ld2OJ5pDM2o05OR9vpduVioVeiGod&amp;#43;7p8PVKayUB8cx27uRsc5Wi4zcHknliES7lmIi7PFPV5h2UXeOYZzMC2Wo6&amp;#43;x3DcQ2e36ofvufe6zfAPpPna7YBWMRgSkC5YKbjO/umGYCW6jgX3GZjDI6Wg7jpv8qI5Rtl1ZNyf3LCB6XeX6p/vudOI4ZM6vnucEMnECcUfccEYFp1Vn2gtszqY&amp;#43;Mjtnd0IW/cupgouzOxogRssdacONL3aKq3a74HFk7tSXmWA/GtidTbdBcCx0b7Sd7BeRl587u6PzHnZy2vmcG6faqe27cjM8sj3Vy31T3r1dcP3IdshzAnnnqOecwjlaOKNOEgrueza0OBXo885G&amp;#43;bCR086B3WJSPRcIs73Id4t5NECMlnMcRuu6E5b6X/8DKtoYtevmT2KVP6SGzdHUzYf64&amp;#43;qPBvZuU5H9xtmPe6PthE/k9PsQEJ3eo285HWV3lEdus7OVGSjv1lO2Qx4BsU695xh7p5BwQAUPLYz4SVhqgKuBcO/1WAQ3iZNbcGpXQdCJV/Qpp48gIF0A1DjEswZSt6sUqzqXe/z0LFhHPbWjvujZ0SAom924or1Iu9OSxpn7qLwCXeUx2o476akN50vVhzUXjrETaZXVpkDrJ9t28&amp;#43;HE9yiP4BqpG3deI3oeZUn5N96LOkMX7LMDnstrkWbHVAA459R7NqsghW1XR8Elnud0NECMlsu2Iz9T15V14&amp;#43;nuueCm4NUFuM5Ovh/jyOloEFSd0cCusjP&amp;#43;UMc62k530tOY5aOag/hlDpGv7arfezZVL4vdDLsjPPJ8Ke/ajTEp1Sal1uH6vZDwDWTiG0h2oEuISF5Isj16tM6Orny3M5bNWlbXjyIgCvYKYm4MI/dccBMT7WZnglFuy7FzwUhBN/tL5EcDu8o7u7kvOV99YLSdrly2vZd3jM/ZDBbdGDt2R3jkNpXX2tsbV12btT7X/xcTBGRRQORAcujVQCTnde&amp;#43;aJSIzNmvgqI7tFokWeC2nay3cWt4FiNFyR9qIukdExPU97EpEVk4i7r24C2xdEOyCa/SrpqMblXqinWlndeMiX&amp;#43;kYdzYrlxl2YrPKo3Lds3VuTTlbr3oPATkgIHIa7VS0CEaDkRa6e4efHVA2zy0ULcROCLKtKgi67uqNCsNoudyPyK/WVUAaPY1oLvQapRtn9EXipFd/I3MnUZdNCU/Uj3QmCM4E9mz/3KZCfYvySmfbUXk3N85/4p7Ku01Q9EM25ce57zU4z7ALu6qTbUZ/clp5RN2cdiKnfudy5N&amp;#43;/ugomCMhBAQmQShX45Xxy8PxTkNJ9Baxc/lxe5as9LdhXPl5r7GKQ&amp;#43;SqveyuMYw46u7LpRCPqXTOtvqBxHxmz67vzuWCtgKv2VvxPdVbrun7q3lEebuMgUeza4/57IUFALiggONh7B4MJTG7tA27j1p3wJUq37u8jtY&amp;#43;AICAsGHzgqX1AJyi93tLpQr/u9Renj/nNDgJC8Hjq4PFIuzn6Oh/ARpjpe0j&amp;#43;PuLyEpV7eVU5MqZ7KYOAICAICD7w1D7QnTiykOj7zr0E5UfqBwJC8GDh4ANP6wP6eJ&amp;#43;FouYlLnv/SfZIwfwWfUVACB5PGzxusaBo8/t5DXWEa/y3VnwDUaqP6Dp1uA/sR9p6tboICAKCgOAD&amp;#43;AA&amp;#43;sOQDCAiOs&amp;#43;Q4r7bTYrz3d7JgTm4/JwgIAoKA4AP4AD6w5AMICI6z5Djs/m6/&amp;#43;2MOmINb&amp;#43;wACgoAgIPgAPoAPLPkAAoLjLDnOrXc&amp;#43;tM/uGx&amp;#43;4vQ8gIAgIAoIP4AP4wJIPICA4zpLjsPu7/e6POWAObu0DCAgCgoDgA/gAPrDkA2&amp;#43;n02mp4q2Vj/bZfeED&amp;#43;AA&amp;#43;cFsf&amp;#43;CggEhH&amp;#43;IAABCEAAAjMEEJAZWpSFAAQgAIGNAAKyoSADAQhAAAIzBBCQGVqUhQAEIACBjQACsqEgAwEIQAACMwQQkBlalIUABCAAgY0AArKhIAMBCEAAAjMEEJAZWpSFAAQgAIGNAAKyoSADAQhAAAIzBBCQGVqUhQAEIACBjQACsqEgAwEIQAACMwQQkBlalIUABCAAgY0AArKhIAMBCEAAAjMEEJAZWpSFAAQgAIGNAAKyoSADAQhAAAIzBBCQGVqUhQAEIACBjQACsqEgAwEIQAACMwQQkBlalIUABCAAgY0AArKhIAMBCEAAAjMEEJAZWpSFAAQgAIGNAAKyoSADAQhAAAIzBBCQGVqUhQAEIACBjQACsqEgAwEIQAACMwT&amp;#43;B49xnkJDnx37AAAAAElFTkSuQmCC"
+loading="lazy"
+alt="Confidentiality"
+>&lt;/p>
+&lt;h2 id="confidentiality">Confidentiality
+&lt;/h2>&lt;p>This element is the protection of data from unauthorized access and misuse. Organisations will always have some form of sensitive data stored on their systems. To provide confidentiality is to protect this data from parties that it is not intended for.&lt;/p>
+&lt;p>There are many real-world examples for this, for example, employee records and accounting documents will be considered sensitive. Confidentiality will be provided in the sense that only HR administrators will access employee records, where vetting and tight access controls are in place. Accounting records are less valuable (and therefore less sensitive), so not as stringent access controls would be in place for these documents. Or, for example, governments using a sensitivity classification rating system (top-secret, classified, unclassified)&lt;/p>
+&lt;p>&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAABsCAYAAABEmOQaAAAL0ElEQVR4Ae2bMY/kRBBG9zeQEt4fgB9AQEaILkUiIkKEJyICpAsvAgmJiEuRiIiQSC9EIicnJiYb9J2urHKpyuPqWby25600ssfT3W4/19Trbs8&amp;#43;XPiDAAQgAAEIDBB4GKhDFQhAAAIQgMAFgRAEEIAABCAwRACBDGGjEgQgAAEIIBBiAAIQgAAEhgggkCFsVIIABCAAAQRCDEAAAhCAwBABBDKEjUoQgAAEIIBAiAEIQAACEBgigECGsFEJAhCAAAQQCDEAAQhAAAJDBBDIEDYqQQACEIAAAiEGIAABCEBgiAACGcJGJQhAAAIQQCDEAAQgAAEIDBFAIEPYqAQBCEAAAgiEGIAABCAAgSECCGQIG5UgAAEIQACBEAMQgAAEIDBEAIEMYaMSBCAAAQggEGIAAhCAAASGCCCQIWxUggAEIAABBEIMQAACEIDAEAEEMoSNShCAAAQggECIAQhAAAIQGCKAQIawUQkCEIAABB7&amp;#43;/eM1FCAAAQhAAAJtAgikjYwKEIAABCAgAm8FolkILxgQA8QAMUAMdGIAgSBPBg/EADFADAzFAAIhcIYCpzNKoSyjWmLgnDGAQBAIAiEGiAFiYCgGEAiBMxQ4jCjPOaLkvnJfOzGAQBAIAiEGiAFiYCgGEAiBMxQ4nVEKZRnVEgPnjAEEgkAQCDFADBADQzGAQAicocBhRHnOESX3lfvaiQEEgkAQCDFADBADQzGAQAicocDpjFIoy6iWGDhnDCAQBIJAiAFigBgYigEEQuAMBQ4jynOOKLmv3NdODCAQBIJAdhwD/7z58fLbDy8uP337xeXN62&amp;#43;4Vzu&amp;#43;V53Ee5ayCISAJCntNAb&amp;#43;/v37y0cfPLs8PDxMr5dfPud&amp;#43;7fR&amp;#43;nUUKnetAIAQjCWmnMSBZeHnYPjMRlpk6Sf7/LItAdpo8/s&amp;#43;bbm1bQvJbLZXY51tttUzz588vL7&amp;#43;8&amp;#43;mrzc291jSPn&amp;#43;eLTj1KBXLtHYqllL81gRs5LHQS1NgYQCAKZJalryWltYF0r99evry5KkM/ef292/mv17unzF59/MmNjopccIgexjMtdEkksx3vk8JgxgEAQyCxJbSUQJTdLiH77mMF99LYyRs8//vCiGVu8Ns/Q9hEIsohx8tjvEQgCmSVyBLKvpKOZmp6FaIbx3defpfJQUjBp&amp;#43;C0C2de9fOzkvYf2EAgCmSUfBHLMpOPFYfsI5Jj3cg9iWNsHBIJAhgWiBBVfawNP9SzR&amp;#43;e3a&amp;#43;lk5exgvCdpLv1jKlnyy&amp;#43;kvHNBPw13rrA2rflvZv7aNnaPtqd&amp;#43;ma&amp;#43;AzB3BoDCASBzBJ5NgNRctODWy2hVL8MsqSlrdbpswe9PliV3Hyda/tZv6w9JfPqJ6/Wrh5ISwJW59pW16xfhelarI1sqwfXYqL&amp;#43;Ve2rf&amp;#43;KhPsYH3b5N/aBA/bS&amp;#43;VYzsc7/17VzbV3&amp;#43;tbsVtSWjikp3jVqlan9geR2wIBIHMkkGWqKtEliURf6x64KsE0W0z65faUWKOv&amp;#43;TyfYj718SmNjVr6bRp5/CJ2ZJg9zp9G1Vda9tvrQ9rtv4cutasztL/mmS/DtO99v1h/zgSuOVeIRAEMksgWaKuElmWeOIxn6x8oHbbzPolGcTzrXm/lBxH29R5s2vtXqdmecapqmuf&amp;#43;&amp;#43;2a67Yyvp&amp;#43;aadhxv9XMxLfv9zO58j889yEMHwfaRyAIZJZAskRdJTKfcJb2s1F/t83YLy2XZIlsqR/2meplSzRagrIyI1ufmO2L1r1Oz6qqa237bae/sZ96H&amp;#43;trqc23b/tVn6rlO6vH9pyCQSAIZJY8YqLWF79KGkp2&amp;#43;kwvjeqzpQ0lJr&amp;#43;ub4mkalPnz14qb3W1rdbuVdfW4rXViD4mR73PRsxZIlVZHY&amp;#43;zlqzdmJiX2On8xk5b9VucfCKuGHkOtp9doxhlLL2kVL96puH7YufJrruSjdVhe0556L4iEAQyS7BKOPEL30lklURuaTPWrZZdMimobpb04pp9NfuI5awv4hSTdkcg1s7StsM99kXvVX&amp;#43;pfftMos3qZzzFI5YVX2uL7Xllkd1bBIJAZgnhVoFUSS&amp;#43;OZqtyWZDGYxpBxySm99mylOpWCdK3mwlBbVZJOCt/VIGIQyaGKM&amp;#43;KY7y3niv75xYKAkEgs2R8q0CUMLLkHhPxLQLJZhRaRlHfq1fWJ5/4spnT0tLM2QRSLWNJGiaBrMwSI6vH9rwSQSAIZJbwjyAQjfQzIXSPeallbWYzCkuGZxNINbvwy1iZZLN4MUZszysOu7cIBIHMknGWELqzhSyR&amp;#43;2St4Ou2aQGrbZbss3NeO&amp;#43;b7lLV5TwIR10wQtoxVPXfyMxR/j9g/vzx0jxEIAkEghZSWlmfONgNRMqieLUkS2WcmF2RxH7LI7jMCQSCHE0j2E14lM80oOi//0D0TgmYw/jmJ/wJl5bMZyy0zrU7dbLal&amp;#43;r7Pa/az/63RMlY2O4k/B17TPmXOJRsEgkB2JRCf1Ktkkz3MVQK9ZTlF/&amp;#43;eRJWGJKetT9iB/bwKJ/7tS8fTHs&amp;#43;vSTCyyqf4Z07fF/rlkkd1PBIJAZslhq2cg1UPbNaPaqm6V7LPAz45liVKJU8nS/ilPCVbniQlV759SIFnf1efsOpeOVWzj9Y60vXRePjumbBAIApklw60EooSRLZfomB85K6HpfVyOUbKOSU3vlUglIdXzSUlLUWpHAvC/LPJl9HnW5tpjTymQbIlJ/da12gxKW3G8JumqLc&amp;#43;hWtrzPNk/phQ69w2BIJBZ0txSIGsSlSWtmJyVwOyz7ja25b8w2RLO2vazdjvPMXw/tN&amp;#43;pWy3rVX2P5/Lvq/NaW5qB&amp;#43;fLsn18U1T1GIAhkloi3FMi1RGUJS1vNLGIQayTty3T2Y1v&amp;#43;vWYi2ezoWvtPKRDNLjp9jjM0f/3az5bE7PqvzWBiW7w/r2AQCAKZJeEtBaLE0pGALcX4hKT6ncRpSfBaAtU5bMlLYrCXZig6Lk7Wlm2fUiDqr2Zla1noGjzHuF/dl0zksS7vzyuMeG8RCAKZJcKtBaKAVDJbGvEqQWvZpEr6Oq7EviZ56jx6AJzJKH45lt5nS11akot1qllWLJe9H6kriUhkJrVsKwbXBCKmWd0sPrK&amp;#43;c&amp;#43;w&amp;#43;JIJA7lgge/uSK/lpLV9Jyl5KdJU4sv6rDY2erb62alPJuNNO1rYdk3wy4elcVuapt7rWyEHvxWdN3yTZKBAJ&amp;#43;lbxrjk3ZY4jHwSCQFYllHv5UmsWoURbyUbHq5/xrk3Oe2MZpaDrj/LQ&amp;#43;z0Jcm8M77U/CASBIJB3MSABxMRpzz60rcShOtnzjyMkFVsm07XpGrKZla6P2cdxZgVbxh0CQSAI5F0MVCPvKJXsvRLxll/cxzrX2p//is1jnZN2ziMjBIJASAzvYiB7MJ7JIh47cnJd8784/Nf5eRL&amp;#43;Y8sbgSAQBDIoEC35HPW5hyWSasnKJMlzD&amp;#43;RhsZJtEQgCQSAhBrQcpcSpGYkk4V86phlH9ZA9&amp;#43;5Lt&amp;#43;ZgEqGUszUTsOrWvY2e5xj3zP3rfEEhIHke/ofSfESMxQAxsFQMIBIEwAyEGiAFiYCgGEAiBMxQ4W41wOA&amp;#43;jaWJgvzGAQBAIAiEGiAFiYCgGEAiBMxQ4jAr3Oyrk3nBvtooBBIJAEAgxQAwQA0MxgEAInKHA2WqEw3kYTRMD&amp;#43;40BBIJAEAgxQAwQA0Mx8HC5XIYqMirY76iAe8O9IQaIgS1iAIEw8mAAQQwQA8TAUAy8FYhmIfxBAAIQgAAEOgQQSIcWZSEAAQhAYCKAQCYU7EAAAhCAQIcAAunQoiwEIAABCEwEEMiEgh0IQAACEOgQQCAdWpSFAAQgAIGJAAKZULADAQhAAAIdAgikQ4uyEIAABCAwEUAgEwp2IAABCECgQwCBdGhRFgIQgAAEJgIIZELBDgQgAAEIdAggkA4tykIAAhCAwEQAgUwo2IEABCAAgQ4BBNKhRVkIQAACEJgIIJAJBTsQgAAEINAhgEA6tCgLAQhAAAITAQQyoWAHAhCAAAQ6BBBIhxZlIQABCEBgIoBAJhTsQAACEIBAhwAC6dCiLAQgAAEITAQQyISCHQhAAAIQ6BBAIB1alIUABCAAgYnAf9dHyxvGaVmUAAAAAElFTkSuQmCC"
+loading="lazy"
+alt="Integrity"
+>&lt;/p>
+&lt;h2 id="integrity">Integrity
+&lt;/h2>&lt;p>The CIA triad element of integrity is the condition where information is kept accurate and consistent unless authorized changes are made. It is possible for the information to change because of careless access and use, errors in the information system, or unauthorized access and use. In the CIA triad, integrity is maintained when the information remains unchanged during storage, transmission, and usage not involving modification to the information. Steps must be taken to ensure data cannot be altered by unauthorised people (for example, in a breach of confidentiality).&lt;/p>
+&lt;p>Many defences to ensure integrity can be put in place. Access control and rigorous authentication can help prevent authorized users from making unauthorized changes. Hash verifications and digital signatures can help ensure that transactions are authentic and that files have not been modified or corrupted.&lt;/p>
+&lt;p>&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAABsCAYAAABEmOQaAAANlUlEQVR4Ae2bva4sRxWFzzOQEvoF4AEckBEip0hEjhChReTAkkNHICER4RSJiMgSqUMkcnJix2RjrSttqbzv2j1d&amp;#43;3T1TI8&amp;#43;S8fVP/X79aq9qqvnvt34DwIQgAAEINAg8NYoQxEIQAACEIDADQNBBBCAAAQg0CKAgbSwUQgCEIAABDAQNAABCEAAAi0CGEgLG4UgAAEIQAADQQMQgAAEINAigIG0sFEIAhCAAAQwEDQAAQhAAAItAhhICxuFIAABCEAAA0EDEIAABCDQIoCBtLBRCAIQgAAEMBA0AAEIQAACLQIYSAsbhSAAAQhAAANBAxCAAAQg0CKAgbSwUQgCEIAABDAQNAABCEAAAi0CGEgLG4UgAAEIQAADQQMQgAAEINAigIG0sFEIAhCAAAQwEDQAAQhAAAItAhhICxuFIAABCEAAA0EDEIAABCDQIoCBtLBRCAIQgAAEMBA0AAEIQAACLQIYSAsbhSAAAQhA4O3///72xh8M0AAaQANoYEYDsk8MBANlAYEG0AAamNYABoJopkUzs0IhLytaNPC6GsBAMBAMBA2gATTQ0gAGgnBawmFV&amp;#43;bqrSp4tz3avBjAQDAQDQQNoAA20NICBIJyWcPauUMjHahYNvK4GMBAMBANBA2gADbQ0gIEgnJZwWFW&amp;#43;7qqSZ8uz3asBDAQDwUDQABpAAy0NYCAIpyWcvSsU8rGaRQOvqwEMBAPBQNAAGkADLQ1gIAinJRxWla&amp;#43;7quTZ8mz3agADwUAuYSD/&amp;#43;9efb//45g&amp;#43;3v331&amp;#43;e2///zG9vmH7/96&amp;#43;8/fv/6Q709//O3t8998evvk5z&amp;#43;zefdOkJl8K9tfNX6xFFOxVRsz4yUvRoOBYCBPHzS&amp;#43;//bLD0bw9vZ2i7/v/vLFR/2WecT9MT0r0K1qf9X4ZRwjJ5ltZc5nMaSda5kSBoKBfBSIn20Sf/qLT34S6CLoacU/9nVVAB/b2Dpe1f6K8ettIziO6We/&amp;#43;uVPmG6Nl3vXCvYrnhcGcnEDqYKWgs4KwTyizjHAjcca&amp;#43;9ifisWYZ&amp;#43;XxqvbHMY/H7xl/1VfVv8VIbyh6I8ptb5Xh3usaDQZycQP54ne/titJBYJXmeTaWhkDZxznPfsqKJ4VwFa1v2L8MoLgOKZu4aHvSXozGfNp&amp;#43;&amp;#43;ssrrTzvAaEgVzYQKptiJjo&amp;#43;oj8CpMv79VrfF///rOPxrYqgO9luKr9VeOXPkIrkbpvSy4fBvK8QX2vXo/Ih4Fc2EAURGPiV2lepR8hmkfUoW0TvW0pmOkXQ64PqwK4a8tdW9n&amp;#43;qvGLpZiKrdpw48JAMAunC13DQC5qIPqAXG1tjGbiVuqVGK5&amp;#43;fWUA38PmVdvHQDCQSv8YyEUNRCvH0Sh07AxF1/KvlSoxrLiuvXYFVvVX2x7xp62So38y&amp;#43;p4Arjc1lVe/oo9K1W9d38PmXvvRhvIdPXb17177e8bg8mAgGIjTha5hIBc1EPfTTgW8bCo6VxB0Aqi&amp;#43;oeijqcsf11zb&amp;#43;U3HBR3XNxmc&amp;#43;h11u9SNS/XnvJ0AqrE643V91Ri3zLhqX&amp;#43;VcG7qme/e2GVeN3z0j9yxcPscnrsVz6erLscr6ijZIH2tuGMgFDUR71TFZx1TBzf0qy/2yJiZe/nWN6tvKX/16J&amp;#43;&amp;#43;fu3rHvuZj5a&amp;#43;C86oAKgYykNyXrXMFt&amp;#43;rtoTKQrfrinvt4Hc9o1fidMRxpIOq/04GuxdhyuldfuRznjzESDOSCBuJMIlZoCkQRlMZUwc1NMrcVpnLVqrjKn&amp;#43;t2fRz7445VJtej81UBVHVX43H9i2syWGd27zEQ1V2ZyKrxn2EglUHP6Eum7XTBtceYxsgdA7mYgVTbAvEGoMA2swVQrfiqbS8XdFzgd0EvAvBW6gKLq0v9GIWs4yqA53zjeVVmq49VsO/WFW3puZ05fvcsxXrko2OXL/rs0rF8xaQyS9eW09fYBsePMxIM5GIG4oJpXqHpbcRNbLdq1uRz3zTcpFV5V68LBjI09VUBJAdFmZbqd3U543JjPspA1DetktXfvDWle65t9dvxqYKl&amp;#43;qpx6b7&amp;#43;dOxMXvWqLzkguj4cMX4XrNVWbt/l0zXldX&amp;#43;5vBur4zejr9wG548xEQzkYgbign1sX8Ukmn2rqLYZsuEoyLqgn/NFP&amp;#43;6le8aiOlYF0Hv9i/vOkNX3uB9pZSBxf0z1jFxgzYsBlVk1fmcMamvsp4735svl4tzxc&amp;#43;M8Wl/RPuk6c8FALmQgVYDKK2dNmJmPl1ppO2PIbxYuELiV5N4Juzcw7s1X8dnbnyrf3nr35ot23Lj0HPLzdPkU1KOeSGfb32sMe/NFP3JaGYOuj3mP1tdYN8drTAQDuZCBuAlW/aJF2yTOFHJwionlDEftxX2lbsWcTWbMr2O1pwAoo1Egij/V7QKTruU6VgXQsR2ZqJhFv6Kf6rfjLrZjeR3PBnCxcc8oM101fsdfbeVx7c2Xy43nTjtH6Gtsg&amp;#43;M1JrHFFQO5iIHM7g9XbxVuj10CcYYzbjO4VaTuV9tXyu&amp;#43;2qFzAHK&amp;#43;dbSAK4i5Ajn2qjvPEmjUQlXd15yD&amp;#43;CgbiTHjUlzPTLX1l9pyfbx5ijoFcxEC0KnXBZvbaOGnHSVcZTmwzuACQV5BR33v6eqaBKGiJxyzDyB/jjRQDqYOYMwhxDH2573CVvoI3ac37LDYYyEUMpLtKjmA3pjFps8i0XTPm03FMYhdoFTBzHZURqS69kWgc8Zfb0vmZBlK9IWms0Uelbuzqax47BrId0Bzv0Je7V&amp;#43;k0c&amp;#43;d8m/tKPhjIBQxkKyi7IHzvWkzaLCxN2FxWwdO9UWjC5/I6d9stqsOZjct7loFUwV5beXlcVd5uvihX1fuK30A05mqb1L2dVPoKdqSPM42RPQZyAQNxEy8H&amp;#43;tnz6tuFWwm6a3mfPkQlA8h9qb67PNJAXNvVDxKqQB9jjnRvvsgvI8&amp;#43;sdK6AGnmUur46o51t3z0r91xdvuqZjv3Ox9V3vBl95To5f6yRYCAXMBA3wbSq12S/9&amp;#43;cmv4JUXuXGRHTBygW5yoBce1WwcW2pfPQl0r35qgDqxurqPNNA3KpbnPWsY9yRur46TjPjV93uWamtaDdSZ3Sun5F/K3V1OX3prXurHu491jiCPwby5AZSBZpqGyoebKRuW0oTtvr3G9UqcZzkW2277ygyu7yqVv/2Bsa9&amp;#43;ba2&amp;#43;mRiCrDBpXqrc2ZTBeaoK9Iq32i2OlYbYjIyjWMXwFeMX33eayAVK&amp;#43;lgDPQav/IGD5dWeo7xK6206erj2mONBAN5cgNR4BsnVxzPfGCsgtUY2MaJeG&amp;#43;VOAbisZyOq2CjfmvVqqAVf65fupfr3BtAVc7VGczGVfNWIFMd0UelKhd1jGnuZ2UgY5mtY7XjnsmK8avvGlvujzOwLVa5vM639FG1O9Yzo&amp;#43;38DDg/11AwkCc3EBe8FOBmJkplCG61rXq3VvIuwI99UQDcCuJjoHDHrv6ZAOryRju5bhdAI&amp;#43;&amp;#43;edBy3jt9jIGLm3tJUrxtTHkv0xeWNseQybvwqH3WNqcsb9ea00lXUp/u5TJyPJh/5Sc81hRneGMgTG0i18tvaQnIPv6pna6ugChj3goPaV3tdE8lBTvW5oOjyxdgrw8zBUWbn/gV&amp;#43;BLN7abQXaddAFDQr81g5fveMM6MY2wyr6ptX1KXULYzEe4&amp;#43;&amp;#43;xno4fqy5YCBPbCBHbF/FBKsmrNsyURkXDGdWh3qLqQJ5FZgVzF0AmzUQ9V&amp;#43;BKH&amp;#43;PccFJ41f9M4YnDs58Y8x7TUn1qO3qGcSzWzX&amp;#43;GQNRX9TPe89UHNXf6HuVunpU9h6Lqj6uP8ZIMJAnNpBXmRQyI30bUWAZ/3RN97ZW30cwUP1q515wUj6ZzNjHOFZ5/c30J8pEHZGqjdVjHvu5d/xjma1jcdR3ihiP0niWW&amp;#43;XiXrVFqnoiD&amp;#43;ljDGGWOwaCgTBp0cAyDWTT1rl7Q&amp;#43;Pt4xqGkQ0GAyF4LAseWWycXzNIvOe5aZtM5qDUbZnFdiZvH9fUBgaCgWAgaGCZBmQeYRJVqjeS/KbyHtOi7HlmhIEQPJYFDybyeRP5GVnr20tlGnFdBnPm96Bn5HTlPmEgGAgGggaWaEA/FgijcKnePDCPay8yMBCCx5LgceVVFX0/JqjFr7X0c/T4BqJU5/xr82MYP1qrGAgGgoGgATSABloawEAQTks4j1750P5rrGB5jtd&amp;#43;jhgIBoKBoAE0gAZaGsBAEE5LOKwcr71y5Pnx/I7QAAaCgWAgaAANoIGWBjAQhNMSzhGrF&amp;#43;pgFYwGrq0BDAQDwUDQABpAAy0NYCAIpyUcVo7XXjny/Hh&amp;#43;R2gAA8FAMBA0gAbQQEsDGAjCaQnniNULdbAKRgPX1sAHA9H/&amp;#43;A8CEIAABCAwS&amp;#43;BttgD5IQABCEAAAiKAgaADCEAAAhBoEcBAWtgoBAEIQAACGAgagAAEIACBFgEMpIWNQhCAAAQggIGgAQhAAAIQaBHAQFrYKAQBCEAAAhgIGoAABCAAgRYBDKSFjUIQgAAEIICBoAEIQAACEGgRwEBa2CgEAQhAAAIYCBqAAAQgAIEWAQykhY1CEIAABCCAgaABCEAAAhBoEcBAWtgoBAEIQAACGAgagAAEIACBFgEMpIWNQhCAAAQggIGgAQhAAAIQaBHAQFrYKAQBCEAAAhgIGoAABCAAgRYBDKSFjUIQgAAEIICBoAEIQAACEGgRwEBa2CgEAQhAAAI/Ao9wpXJoSLrAAAAAAElFTkSuQmCC"
+loading="lazy"
+alt="Availability"
+>&lt;/p>
+&lt;h2 id="availability">Availability
+&lt;/h2>&lt;p>In order for data to be useful, it must be available and accessible by the user.&lt;/p>
+&lt;p>The main concern in the CIA triad is that the information should be available when authorised users need to access it.&lt;/p>
+&lt;p>Availability is very often a key benchmark for an organisation. For example, having 99.99% uptime on their websites or systems (this is laid out in Service Level Agreements). When a system is unavailable, it often results in damage to an organisations reputation and loss of finances. Availability is achieved through a combination of many elements, including:&lt;/p>
+&lt;ul>
+&lt;li>Having reliable and well-tested hardware for their information technology servers (i.e. reputable servers)&lt;/li>
+&lt;li>Having redundant technology and services in the case of failure of the primary&lt;/li>
+&lt;li>Implementing well-versed security protocols to protect technology and services from attack&lt;/li>
+&lt;/ul></description></item><item><title>Deep Dive into Vulnerability Assessment</title><link>https://samad.uno/p/deep-dive-into-vulnerability-assessment/</link><pubDate>Sat, 01 Feb 2025 01:06:03 +0530</pubDate><guid>https://samad.uno/p/deep-dive-into-vulnerability-assessment/</guid><description>&lt;img src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/609a35eb958d5a46f3f246e5_scanning%20vulnerability.png" alt="Featured image of post Deep Dive into Vulnerability Assessment" />&lt;h1 id="a-deep-dive-into-vulnerability-assessment-methodologies-tools-and-best-practices">A Deep Dive into Vulnerability Assessment: Methodologies, Tools, and Best Practices
+&lt;/h1>&lt;h2 id="introduction">Introduction
+&lt;/h2>&lt;p>Vulnerability assessment (VA) is a critical process in cybersecurity that involves identifying, analyzing, and mitigating security weaknesses in systems, networks, and applications. It is a proactive approach that helps organizations reduce their attack surface and strengthen their security posture. This article delves into the methodologies, tools, and best practices involved in vulnerability assessment.&lt;/p>
+&lt;h2 id="understanding-vulnerability-assessment">Understanding Vulnerability Assessment
+&lt;/h2>&lt;p>A vulnerability is any flaw or weakness that could be exploited by an attacker to compromise the confidentiality, integrity, or availability of a system. A vulnerability assessment systematically identifies and quantifies such weaknesses before they can be exploited.&lt;/p>
+&lt;h3 id="key-phases-of-vulnerability-assessment">Key Phases of Vulnerability Assessment
+&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>Planning and Scoping&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Define the scope of the assessment (e.g., internal/external network, web applications, cloud infrastructure).&lt;/li>
+&lt;li>Identify assets, stakeholders, and compliance requirements.&lt;/li>
+&lt;li>Determine the tools and methodologies to be used.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Discovery and Enumeration&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Conduct reconnaissance to gather information about target systems.&lt;/li>
+&lt;li>Use network mapping tools (e.g., Nmap) to discover active hosts and services.&lt;/li>
+&lt;li>Enumerate open ports, running services, and system details.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Vulnerability Identification&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Use automated and manual methods to identify known vulnerabilities.&lt;/li>
+&lt;li>Leverage databases like CVE (Common Vulnerabilities and Exposures), NVD (National Vulnerability Database), and vendor advisories.&lt;/li>
+&lt;li>Employ vulnerability scanning tools such as Nessus, OpenVAS, and Qualys.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Vulnerability Analysis and Risk Prioritization&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Assess the severity of identified vulnerabilities using CVSS (Common Vulnerability Scoring System) scores.&lt;/li>
+&lt;li>Correlate findings with real-world exploitability data (e.g., Metasploit, Exploit DB).&lt;/li>
+&lt;li>Prioritize vulnerabilities based on business impact, exploitability, and criticality.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Reporting and Remediation&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Document findings, including risk ratings, affected systems, and potential impact.&lt;/li>
+&lt;li>Provide actionable remediation steps (patching, configuration changes, compensating controls).&lt;/li>
+&lt;li>Collaborate with IT and security teams to implement fixes.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="vulnerability-assessment-methodologies">Vulnerability Assessment Methodologies
+&lt;/h2>&lt;p>Several methodologies are used to conduct vulnerability assessments effectively:&lt;/p>
+&lt;h3 id="1-network-based-va">1. &lt;strong>Network-Based VA&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Focuses on identifying weaknesses in network infrastructure, including firewalls, routers, and servers.&lt;/li>
+&lt;li>Uses tools like Nessus, Nmap, and OpenVAS.&lt;/li>
+&lt;/ul>
+&lt;h3 id="2-host-based-va">2. &lt;strong>Host-Based VA&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Examines operating systems and installed applications for misconfigurations and outdated software.&lt;/li>
+&lt;li>Uses tools like Microsoft Baseline Security Analyzer (MBSA), Lynis (for Linux), and Qualys.&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-application-based-va">3. &lt;strong>Application-Based VA&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Identifies security flaws in web and mobile applications, including SQL injection, XSS, and authentication flaws.&lt;/li>
+&lt;li>Uses tools like Burp Suite, OWASP ZAP, and Nikto.&lt;/li>
+&lt;/ul>
+&lt;h3 id="4-cloud-and-container-security-va">4. &lt;strong>Cloud and Container Security VA&lt;/strong>
+&lt;/h3>&lt;ul>
+&lt;li>Assesses cloud environments (AWS, Azure, GCP) and containerized applications for security risks.&lt;/li>
+&lt;li>Uses tools like AWS Inspector, Aqua Security, and Prisma Cloud.&lt;/li>
+&lt;/ul>
+&lt;h2 id="popular-tools-for-vulnerability-assessment">Popular Tools for Vulnerability Assessment
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Nessus&lt;/strong> – Comprehensive network vulnerability scanner.&lt;/li>
+&lt;li>&lt;strong>OpenVAS&lt;/strong> – Open-source vulnerability scanning tool.&lt;/li>
+&lt;li>&lt;strong>Qualys VM&lt;/strong> – Cloud-based vulnerability management.&lt;/li>
+&lt;li>&lt;strong>Burp Suite&lt;/strong> – Web application security scanner.&lt;/li>
+&lt;li>&lt;strong>OWASP ZAP&lt;/strong> – Open-source web application scanner.&lt;/li>
+&lt;li>&lt;strong>Nikto&lt;/strong> – Web server vulnerability scanner.&lt;/li>
+&lt;li>&lt;strong>Lynis&lt;/strong> – Linux and Unix system auditing tool.&lt;/li>
+&lt;li>&lt;strong>AWS Inspector&lt;/strong> – Cloud security assessment tool.&lt;/li>
+&lt;/ul>
+&lt;h2 id="best-practices-for-effective-vulnerability-assessment">Best Practices for Effective Vulnerability Assessment
+&lt;/h2>&lt;ol>
+&lt;li>&lt;strong>Regular Scanning&lt;/strong> – Conduct periodic vulnerability scans to detect new threats.&lt;/li>
+&lt;li>&lt;strong>Patch Management&lt;/strong> – Apply security patches and updates promptly.&lt;/li>
+&lt;li>&lt;strong>Risk-Based Prioritization&lt;/strong> – Focus on high-impact vulnerabilities first.&lt;/li>
+&lt;li>&lt;strong>Automated and Manual Testing&lt;/strong> – Use a combination of tools and manual validation.&lt;/li>
+&lt;li>&lt;strong>Compliance Alignment&lt;/strong> – Ensure assessments align with security frameworks like NIST, ISO 27001, and CIS benchmarks.&lt;/li>
+&lt;li>&lt;strong>Continuous Monitoring&lt;/strong> – Integrate vulnerability assessment with SIEM solutions for real-time threat detection.&lt;/li>
+&lt;/ol>
+&lt;h2 id="conclusion">Conclusion
+&lt;/h2>&lt;p>Vulnerability assessment is a fundamental cybersecurity practice that helps organizations identify and mitigate security risks before they can be exploited. By following structured methodologies, leveraging powerful tools, and adhering to best practices, organizations can significantly enhance their security posture and minimize potential threats. Regular assessments and a proactive security strategy are essential in today&amp;rsquo;s evolving threat landscape.&lt;/p></description></item><item><title>Mr Robot CTF</title><link>https://samad.uno/p/mr-robot-ctf/</link><pubDate>Fri, 29 Nov 2024 12:10:58 +0530</pubDate><guid>https://samad.uno/p/mr-robot-ctf/</guid><description>&lt;img src="https://w0.peakpx.com/wallpaper/248/580/HD-wallpaper-mr-robot-logo-2018-mr-robot-tv-shows-deviantart-logo.jpg" alt="Featured image of post Mr Robot CTF" />&lt;p>Mr Robot CTF is a medium level linux based machine offered by TryHackMe. We have to find the keys inorder to complete this challenge.&lt;/p>
+&lt;h3 id="enumeration">Enumeration
+&lt;/h3>&lt;h4 id="nmap-scan">Nmap Scan
+&lt;/h4>&lt;p>First of we start with scanning the target&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo nmap -sT -T4 -p- -sV 10.10.134.174
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Nmap results:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Nmap scan report for 10.10.134.174
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Host is up (0.17s latency).
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Not shown: 65532 filtered tcp ports (no-response)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">PORT STATE SERVICE VERSION
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">22/tcp closed ssh
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">80/tcp open http Apache httpd
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">443/tcp open ssl/http Apache httpd
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Service detection performed.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Please report any incorrect results at https://nmap.org/submit/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Nmap done: 1 IP address (1 host up) scanned in 352.56 seconds
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>We have a 2 open ports both of them have a webserver running one has SSL/HTTP at port 443 and the other is HTTP at port 80.&lt;/p>
+&lt;p>Opening the web app in the browser provides us with an interesting interface in which we aren&amp;rsquo;t interested.&lt;/p>
+&lt;p>Examining the webapp for common directories I stumbled across the &lt;code>/robots.txt&lt;/code> endpoint.&lt;/p>
+&lt;p>Content of which were as follows:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">User-agent: *
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">fsocity.dic
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">key-1-of-3.txt
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>For the first key we have the end point &lt;code>/key-1-of-3.txt&lt;/code>.&lt;/p>
+&lt;p>We also found the &lt;code>/fsocity.dic&lt;/code> endpoint which has a wordlist which might come in handy later.&lt;/p>
+&lt;h4 id="directory-busting">Directory Busting
+&lt;/h4>&lt;p>Now moving on, we need to do directory busting to find new endpoints, we employ DirBuster for this task:&lt;/p>
+&lt;p>&lt;img src="https://samad.uno/dirb.png"
+loading="lazy"
+alt="DirBuster"
+>&lt;/p>
+&lt;p>This yields us some really interesting results:
+&lt;code>/license&lt;/code>
+&lt;code>/login&lt;/code>&lt;/p>
+&lt;p>Visiting the &lt;code>/license&lt;/code> endpoint we get:&lt;/p>
+&lt;p>&lt;img src="https://samad.uno/license.png"
+loading="lazy"
+alt="/license"
+>&lt;/p>
+&lt;p>Scrolling further down we are greeted with a base64 string which screams &amp;ldquo;password&amp;rdquo;&lt;/p>
+&lt;p>&lt;img src="https://samad.uno/string.png"
+loading="lazy"
+alt="/license"
+>&lt;/p>
+&lt;p>After decoding the base64 string we found we get not only the password but also the username which quite matches the theme of this box:
+User: &lt;code>Elliot&lt;/code>
+Password: &lt;code>ER28-0652&lt;/code>&lt;/p>
+&lt;p>Now equipped with user and password we move on to the &lt;code>/login&lt;/code> endpoint.&lt;/p>
+&lt;p>&lt;img src="https://samad.uno/login.png"
+loading="lazy"
+alt="login"
+>&lt;/p>
+&lt;p>We login with the credentials we have and we get a wordpress dashboard.&lt;/p>
+&lt;p>&lt;img src="https://samad.uno/dash.png"
+loading="lazy"
+alt="dashboard"
+>&lt;/p>
+&lt;h3 id="exploitation">Exploitation
+&lt;/h3>&lt;p>Poking around I found the theme editorhiding in plainsight, this bad boy could be our way in.&lt;/p>
+&lt;p>&lt;img src="https://samad.uno/404.png"
+loading="lazy"
+alt="editor"
+>&lt;/p>
+&lt;p>Now we have access to some code that can be manipulated and used to gain a reverse shell on the target, what we need to do is replace the code for 404.php with a reverse shell.&lt;/p>
+&lt;p>Before we execute the reverse shell file on the target we need to setup a listener on our host.
+For that we have netcat.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">rlwrap nc -lvnp 1234
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Using rlwrap is not necessary but it&amp;rsquo;s the quality of life stuff. Now we have our listener up and running.&lt;/p>
+&lt;p>&lt;img src="https://samad.uno/nc.png"
+loading="lazy"
+alt="listener"
+>&lt;/p>
+&lt;p>Executing our reverse shell by visiting the URL: &lt;code>http://10.10.134.174/wp-includes/themes/TwentyFifteen/404.php&lt;/code>&lt;/p>
+&lt;p>We get a shell.&lt;/p>
+&lt;p>&lt;img src="https://samad.uno/shell.png"
+loading="lazy"
+alt="shell"
+>&lt;/p>
+&lt;p>We land as daemon which is not privileged enough to access the &amp;ldquo;key&amp;rdquo; file so we need to change to a system user which in this case is &amp;ldquo;robot&amp;rdquo; it&amp;rsquo;s password is given in a md5 hash.&lt;/p>
+&lt;p>We crack the hash using John the Ripper and the fsocity.dic wordlist we found earlier, now we have the password: &lt;code>abcdefghijklmnopqrstuvwxyz&lt;/code>&lt;/p>
+&lt;p>Now inorder to change the user we need to have an interactive shell which right now we don&amp;rsquo;t, so to make the current shell interactive we simply use:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">python -c &amp;#39;import pty;pty.spawn(&amp;#34;/bin/bash&amp;#34;)&amp;#39;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>And we have an interactive shell&lt;/p>
+&lt;p>&lt;img src="https://samad.uno/key2.png"
+loading="lazy"
+alt="shell"
+>&lt;/p>
+&lt;p>Now we can easily obtain the second key.&lt;/p></description></item><item><title>Initiation</title><link>https://samad.uno/p/initiation/</link><pubDate>Sat, 23 Nov 2024 01:45:48 +0530</pubDate><guid>https://samad.uno/p/initiation/</guid><description>&lt;img src="https://i.ytimg.com/vi/N3G17jMEMzE/maxresdefault.jpg" alt="Featured image of post Initiation" />&lt;p>This site will be a place where I can share my projects, knowledge, and experiences as I dive deeper into the world of Computer Science and Cybersecurity.&lt;/p>
+&lt;h3 id="what-to-expect">What to Expect
+&lt;/h3>&lt;p>On this site, you can find:&lt;/p>
+&lt;ul>
+&lt;li>Blog posts about cybersecurity.&lt;/li>
+&lt;li>Insights into my learning journey and the challenges I face as a student.&lt;/li>
+&lt;li>Updates on my personal projects and achievements in the tech field.&lt;/li>
+&lt;/ul>
+&lt;h3 id="why-i-built-this-site">Why I Built This Site
+&lt;/h3>&lt;p>As a computer science and engineering student with a strong interest in cybersecurity, I wanted to create a space to not only document my journey but also to share useful information and resources with others. Through this website I aim to giving back to the community.&lt;/p>
+&lt;p>I hope this website will be a valuable resource for anyone interested in technology and cyber defense.&lt;/p></description></item><item><title>Archives</title><link>https://samad.uno/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://samad.uno/archives/</guid><description/></item><item><title>About</title><link>https://samad.uno/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://samad.uno/about/</guid><description>&lt;img src="https://samad.uno/img/open.png" alt="Featured image of post About" />&lt;p>I am a Computer Science &amp;amp; Engineering student. Skilled in Python and Bash scripting. Here I&amp;rsquo;ll be posting my projects and write-ups.&lt;/p>
+&lt;h2 id="education">Education
+&lt;/h2>&lt;ul>
+&lt;li>Currently pursuing Bachelor of Technology in Computer Science and Engineering from Dr. A. P. J. Abdul Kalam Technical University.&lt;/li>
+&lt;li>Completed high school and junior college at St. Joseph&amp;rsquo;s College, Allahabad.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="capture-the-flag--online-training">Capture The Flag &amp;amp; Online Training
+&lt;/h2>&lt;p>In addition to my formal education, I&amp;rsquo;ve been pursuing cybersecurity training through various online platforms:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="transcript.pdf" >HackTheBox Academy&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Infosec Foundations Path&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://www.tryhackme.com/p/samad1" target="_blank" rel="noopener"
+>TryHackMe&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>Jr. Penetration Tester Path&lt;/li>
+&lt;li>CompTIA Pentest+ Path&lt;/li>
+&lt;li>Web Fundamentals Path&lt;/li>
+&lt;li>PreSecurity Path&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Striving to stay ahead in this ever-evolving field and continuously expand my knowledge and skills.&lt;/p></description></item><item><title>Search</title><link>https://samad.uno/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://samad.uno/search/</guid><description/></item></channel></rss>
